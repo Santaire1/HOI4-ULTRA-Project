@@ -35,7 +35,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 0
+		hardness = 1 # 0
 		armor_value = 1
 
 		#Offensive Abilities
@@ -45,7 +45,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 6
+		lend_lease_cost = 3
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -216,7 +216,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 1.2
+	 	hardness = 1 # 1.2
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -226,7 +226,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 6
+	 	lend_lease_cost = 3
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -270,7 +270,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 1.2
+	 	hardness = 1 # 1.2
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -280,7 +280,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 6
+	 	lend_lease_cost = 3
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -324,7 +324,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 		breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -334,7 +334,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 6
+	 	lend_lease_cost = 3
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -374,7 +374,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 2
+		hardness = 1 # 2
 		armor_value = 1
 
 		#Offensive Abilities
@@ -384,7 +384,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 10
+		lend_lease_cost = 5
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -551,7 +551,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 2
+		hardness = 1 # 2
 		armor_value = 1
 
 		#Offensive Abilities
@@ -561,7 +561,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 10
+		lend_lease_cost = 5
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -732,7 +732,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -742,7 +742,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 10
+	 	lend_lease_cost = 5
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -786,7 +786,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -796,7 +796,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 10
+	 	lend_lease_cost = 5
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -840,7 +840,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -850,7 +850,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 10
+	 	lend_lease_cost = 5
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -894,7 +894,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -904,7 +904,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 10
+	 	lend_lease_cost = 5
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -944,7 +944,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 2
+		hardness = 1 # 2
 		armor_value = 1
 
 		#Offensive Abilities
@@ -954,7 +954,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 12
+		lend_lease_cost = 8
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -1118,7 +1118,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 1
 	# 	breakthrough = 1
-	# 	hardness = 0
+	# 	hardness = 1 # 0
 	# 	armor_value = 1
 
 	# 	#Offensive Abilities
@@ -1168,7 +1168,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 1
 	# 	breakthrough = 1
-	# 	hardness = 0
+	# 	hardness = 1 # 0
 	# 	armor_value = 1
 
 	# 	#Offensive Abilities
@@ -1218,7 +1218,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 1
 	# 	breakthrough = 1
-	# 	hardness = 0
+	# 	hardness = 1 # 0
 	# 	armor_value = 1
 
 	# 	#Offensive Abilities
@@ -1268,7 +1268,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 2
+		hardness = 1 # 2
 		armor_value = 1
 
 		#Offensive Abilities
@@ -1278,7 +1278,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 10
+		lend_lease_cost = 5
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -1439,7 +1439,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 2
+		hardness = 1 # 2
 		armor_value = 1
 
 		#Offensive Abilities
@@ -1449,7 +1449,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 12
+		lend_lease_cost = 10
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -1620,7 +1620,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 1.2
+	 	hardness = 1 # 1.2
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -1630,7 +1630,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 12
+	 	lend_lease_cost = 10
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -1674,7 +1674,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 1.2
+	 	hardness = 1 # 1.2
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -1684,7 +1684,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 12
+	 	lend_lease_cost = 10
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -1728,7 +1728,7 @@ equipments = {
 	 	#Defensive Abilities
 	 	defense = 1
 	 	breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -1738,7 +1738,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-	 	lend_lease_cost = 12
+	 	lend_lease_cost = 10
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -1782,7 +1782,7 @@ equipments = {
 	 	#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-	 	hardness = 0
+	 	hardness = 1 # 0
 	 	armor_value = 1
 
 	 	#Offensive Abilities
@@ -1792,7 +1792,7 @@ equipments = {
 	 	air_attack = 0
 
 	 	#Space taken in convoy
-		lend_lease_cost = 12
+		lend_lease_cost = 10
 		
 	 	build_cost_ic = 200
 	 	fuel_consumption = 1
@@ -1832,7 +1832,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 1
 		breakthrough = 1
-		hardness = 0
+		hardness = 1 # 0
 		armor_value = 1
 
 		#Offensive Abilities
@@ -1842,7 +1842,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 16
+		lend_lease_cost = 12
 		
 		build_cost_ic = 200
 		fuel_consumption = 1
@@ -2010,7 +2010,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 7
 	# 	breakthrough = 3.5
-	# 	hardness = 0.9
+	# 	hardness = 1 # 0.9
 	# 	armor_value = 100
 
 	# 	#Offensive Abilities
@@ -2061,7 +2061,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 7
 	# 	breakthrough = 1.8
-	# 	hardness = 0.99
+	# 	hardness = 1 # 0.99
 	# 	armor_value = 145
 
 	# 	#Offensive Abilities
@@ -2112,7 +2112,7 @@ equipments = {
 	# 	#Defensive Abilities
 	# 	defense = 3.5
 	# 	breakthrough = 3.5
-	# 	hardness = 0.9
+	# 	hardness = 1 # 0.9
 	# 	armor_value = 100
 
 	# 	#Offensive Abilities

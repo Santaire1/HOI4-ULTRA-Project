@@ -26,8 +26,8 @@ sub_units = {
 	
 		#Size Definitions
 		#max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
+		max_organisation = 50
+		default_morale = 1
 		manpower = 500
 		training_time = 120
 
@@ -112,8 +112,8 @@ sub_units = {
 	
 		#Size Definitions
 		#max_strength 		= 2
-		max_organisation 	= 20
-		default_morale 		= 0.3
+		max_organisation 	= 25
+		default_morale 		= 1
 		manpower 			= 500
 		training_time 		= 120
 
@@ -199,7 +199,7 @@ sub_units = {
 		#Size Definitions
 		#max_strength = 2
 		max_organisation = 0
-		default_morale = 0.1
+		default_morale = 1
 		manpower = 500
 		training_time = 120
 
@@ -210,8 +210,8 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Support nerfs to combat abilities
-		breakthrough 	= -0.66
-		defense 		= -0.66		
+		breakthrough 	= -0.9
+		defense 		= -0.9		
 		soft_attack 	= -0.9
 		hard_attack 	= -0.9
 		max_strength = -0.66
@@ -283,7 +283,7 @@ sub_units = {
 		#Size Definitions
 		#max_strength = 2
 		max_organisation = 0
-		default_morale = 0.1
+		default_morale = 1
 		manpower = 500
 		training_time = 120
 
@@ -294,8 +294,8 @@ sub_units = {
 		can_be_parachuted = yes
 
 		# Support nerfs to combat abilities
-		defense = -0.66
-		breakthrough = -0.66
+		defense = -0.9
+		breakthrough = -0.9
 		soft_attack = -0.9
 		hard_attack = -0.9
 		max_strength = -0.66

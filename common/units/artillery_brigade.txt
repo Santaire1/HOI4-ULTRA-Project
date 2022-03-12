@@ -23,66 +23,69 @@ sub_units = {
 
 		combat_width = 0
 
-		manpower = 200
+		manpower = 240
 		need = {
 			artillery_equipment = 12
 		}
 		
 		#max_strength = 1.0
-		max_organisation = 20
-		default_morale = 0.07
+		max_organisation = 50
+		default_morale = 0.5
 		training_time = 120
 		weight = 0.25
-		supply_consumption = 0.06
+		supply_consumption = 0.2
 		own_equipment_fuel_consumption_mult = 0.0		
 		transport = artillery_equipment
 
 		#Line artillery bonuses
-		# soft_attack = 0.25
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
 			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
+			defence = -0.2
 			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
+			attack = -0.5
+			defence = -0.4
 			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.25
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -116,60 +119,64 @@ sub_units = {
 			rocket_artillery_equipment = 18
 		}
 		
-		manpower = 500
-		max_organisation = 10
-		default_morale = 0.07
+		manpower = 360
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 1.5
 		training_time = 120
 		weight = 0.38
 		own_equipment_fuel_consumption_mult = 0.0
-		supply_consumption = 0.09
+		supply_consumption = 0.3
 		transport = rocket_artillery_equipment
 		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
 			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
+			defence = -0.2
 			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
+			attack = -0.5
+			defence = -0.4
 			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.25
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -201,7 +208,7 @@ sub_units = {
 
 		combat_width = 0
 
-		manpower = 500
+		manpower = 240
 		need = {
 			artillery_equipment = 12
 			motorized_equipment = 20
@@ -210,65 +217,65 @@ sub_units = {
 		transport = motorized_equipment
 		
 		#max_strength = 1.0
-		max_organisation = 20
-		default_morale = 0.07
+		max_organisation = 50
+		default_morale = 0.5
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.06
+		supply_consumption = 0.2
 		maximum_speed = -0.2
 
 		#Line artillery bonuses
 		# soft_attack = 0.25
 		
 		# motorized buffs combat abilities
-		defense = 0.2
-		breakthrough = 0.2
-		soft_attack = 0.2
-		hard_attack = 0.2
+		defense = 3
+		breakthrough = 3
+		soft_attack = 3
+		hard_attack = 3
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
-			movement = -0.9
+			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
-			movement = -0.75
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.5
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -299,7 +306,7 @@ sub_units = {
 
 		combat_width = 0
 
-		manpower = 500
+		manpower = 240
 		need = {
 			artillery_equipment = 12
 			motorized_equipment = 20
@@ -308,65 +315,65 @@ sub_units = {
 		transport = motorized_equipment
 		
 		#max_strength = 1.0
-		max_organisation = 20
-		default_morale = 0.07
+		max_organisation = 50
+		default_morale = 0.5
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.06
+		supply_consumption = 0.2
 		maximum_speed = -0.2
 
 		#Line artillery bonuses
 		# soft_attack = 0.25
 		
 		# motorized buffs combat abilities
-		defense = 0.2
-		breakthrough = 0.2
-		soft_attack = 0.2
-		hard_attack = 0.2
+		defense = 3
+		breakthrough = 3
+		soft_attack = 3
+		hard_attack = 3
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
-			movement = -0.9
+			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
-			movement = -0.75
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.5
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -408,64 +415,64 @@ sub_units = {
 		transport = motorized_equipment
 		
 		# motorized buffs combat abilities
-		defense = 0.2
-		breakthrough = 0.2
-		soft_attack = 0.2
-		hard_attack = 0.2
+		defense = 3
+		breakthrough = 3
+		soft_attack = 3
+		hard_attack = 3
 		
-		manpower = 500
-		max_organisation = 10
-		default_morale = 0.07
+		manpower = 240
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 1.5
 		training_time = 120
 		weight = 0.75
 		maximum_speed = -0.2
-		supply_consumption = 0.09
+		supply_consumption = 0.3
 		
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
-			movement = -0.9
+			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
-			movement = -0.75
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.5
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -500,62 +507,65 @@ sub_units = {
 			motorized_rocket_equipment = 24		   
 		}
 		
-		manpower = 500
-		max_organisation = 10
-		default_morale = 0.07
+		manpower = 480
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 1.5
 		training_time = 120
 		weight = 0.75
 
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
-		
-		supply_consumption = 0.12
+		supply_consumption = 0.4
 		transport = motorized_rocket_equipment
 		
 		
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.2
-			defence = 0
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.2
-			defence = 0
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.6
+			attack = -0.5
 			defence = -0.2
-			movement = -0.9
+			movement = 0
 		}
         mountain = {
 			attack = -0.5
-			defence = 0
-			movement = -0.75
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.4
-			defence = -0.1
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.55
-			defence = -0.325
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
 			attack = 0
-			movement = -0.5
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5

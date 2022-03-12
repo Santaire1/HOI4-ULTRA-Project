@@ -159,7 +159,7 @@ NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 20		-- was 15 -- Max number of
 NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 1 --10	-- Base start efficiency for factories expressed in %.
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 65  -- 25
 NDefines.NProduction.BASE_FACTORY_SPEED = 0.65 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
-NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 1.2 --8				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
+NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 0.9 --8				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 1.2
 
 NDefines.NProduction.BASE_FACTORY_EFFICIENCY_BALANCE_FACTOR = 0.1 			-- Factory efficiency balancing factor
@@ -280,10 +280,10 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 10 --5 -- how ma
 
 -- Land combat general regulation
 
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.25 --0.06        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
-NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.10 --0.04        -- global damage modifier
-NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 80              -- Base chance to avoid hit if defences left.
-NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 60	           -- chance to avoid hit if no defences left.
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.03 --0.06        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
+NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.03 --0.04        -- global damage modifier
+NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 20			         -- Base chance to avoid hit if defences left.
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 85	           -- chance to avoid hit if no defences left.
 
 -- Effects on experience and equipment
 
@@ -292,8 +292,8 @@ NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.95 	       -- % of equipment
 
 -- Armor case
 
-NDefines.NMilitary.ARMOR_VS_AVERAGE = 0.5			                -- how to weight in highest armor & pen vs the division average
-NDefines.NMilitary.PEN_VS_AVERAGE = 0.45
+NDefines.NMilitary.ARMOR_VS_AVERAGE = 0.2			                -- how to weight in highest armor & pen vs the division average
+NDefines.NMilitary.PEN_VS_AVERAGE = 0.2
 
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2   -- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6   -- extra damage dice if our armor outclasses enemy
@@ -466,9 +466,9 @@ NDefines.NSupply.TRUCK_ATTRITION_FACTOR = 0.45 --a scale on total truck attritio
 -- Lack of supply effect
 
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_ATTACK = -0.70     -- attack combat penalty for attacker if out of supply
-NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.50     -- defend combat penalty for attacker if out of supply
+NDefines.NMilitary.COMBAT_SUPPLY_LACK_ATTACKER_DEFEND = -0.70     -- defend combat penalty for attacker if out of supply
 NDefines.NMilitary.COMBAT_SUPPLY_LACK_DEFENDER_ATTACK = -0.70     -- attack combat penalty for defender if out of supply
-NDefines.NMilitary.COMBAT_SUPPLY_LACK_DEFENDER_DEFEND = -0.25     -- defend combat penalty for defender if out of supply
+NDefines.NMilitary.COMBAT_SUPPLY_LACK_DEFENDER_DEFEND = -0.70     -- defend combat penalty for defender if out of supply
 
 -- Battleplan Execution Adjustments
 

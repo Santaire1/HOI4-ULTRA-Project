@@ -31,7 +31,7 @@ sub_units = {
 		
 		transport = light_tank_destroyer_chassis
 		manpower = 200
-		max_organisation = 0
+		max_organisation = 25
 		default_morale = 0
 		#max_strength = 0.6
 		training_time = 180
@@ -44,7 +44,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 		
@@ -83,7 +83,7 @@ sub_units = {
 		}
 		transport = medium_tank_destroyer_chassis
 		manpower = 200
-		max_organisation = 0
+		max_organisation = 25
 		default_morale = 0
 		#max_strength = 0.6
 		training_time = 180
@@ -96,7 +96,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 		
@@ -134,7 +134,7 @@ sub_units = {
 		}
 		transport = heavy_tank_destroyer_chassis
 		manpower = 200
-		max_organisation = 0
+		max_organisation = 25
 		default_morale = 0
 		#max_strength = 0.6
 		weight = 0.75
@@ -146,7 +146,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 		
@@ -184,7 +184,7 @@ sub_units = {
 		}
 		transport = super_heavy_tank_destroyer_chassis
 		manpower = 100
-		max_organisation = 0
+		max_organisation = 25
 		default_morale = 0
 		#max_strength = 0.6
 		training_time = 180
@@ -199,7 +199,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 	}
@@ -235,7 +235,7 @@ sub_units = {
 		}
 		transport = modern_tank_destroyer_chassis
 		manpower = 200
-		max_organisation = 0
+		max_organisation = 25
 		default_morale = 0
 		#max_strength = 0.6
 		training_time = 180
@@ -248,7 +248,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 		

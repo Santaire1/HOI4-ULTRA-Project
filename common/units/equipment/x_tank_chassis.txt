@@ -14,7 +14,7 @@ duplicate_archetypes = {
 	#		# used as the localization key (the name of the type) and run a find-and-replace on it.
 	#		# Example: light_tank_aa_chassis_1 gets variant_name light_tank_aa_equipment_1.
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -23,7 +23,7 @@ duplicate_archetypes = {
 	#	type = { armor artillery }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -40,7 +40,7 @@ duplicate_archetypes = {
 	#	type = { armor amphibious }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 2 }
+	#		#hardness = { set = 2 }
 	#	}
 	#}
 
@@ -59,7 +59,7 @@ duplicate_archetypes = {
 	#	type = { armor anti_air }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -68,7 +68,7 @@ duplicate_archetypes = {
 	#	type = { armor artillery }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -120,7 +120,7 @@ duplicate_archetypes = {
 	#	type = { armor anti_air }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -129,7 +129,7 @@ duplicate_archetypes = {
 	#	type = { armor artillery }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 1.2 }
+	#		#hardness = { set = 1.2 }
 	#	}
 	#}
 
@@ -146,7 +146,7 @@ duplicate_archetypes = {
 	#	type = { armor amphibious }
 	#	for_each = {
 	#		variant_name = { find_and_replace = { "chassis" "equipment" } }
-	#		hardness = { set = 0.8 }
+	#		#hardness = { set = 0.8 }
 	#	}
 	#}
 
@@ -173,7 +173,7 @@ duplicate_archetypes = {
 		type = { armor anti_air }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
-			hardness = { set = 1.2 }
+			#hardness = { set = 1.2 }
 		}
 	}
 
@@ -182,7 +182,7 @@ duplicate_archetypes = {
 		type = { armor artillery }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
-			hardness = { set = 1.2 }
+			#hardness = { set = 1.2 }
 		}
 	}
 
@@ -201,7 +201,7 @@ duplicate_archetypes = {
 		type = { armor anti_air }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
-			hardness = { set = 1.2 }
+			#hardness = { set = 1.2 }
 		}
 	}
 
@@ -210,7 +210,7 @@ duplicate_archetypes = {
 		type = { armor artillery }
 		for_each = {
 			variant_name = { find_and_replace = { "chassis" "equipment" } }
-			hardness = { set = 1.2 }
+			#hardness = { set = 1.2 }
 		}
 	}
 
@@ -236,15 +236,15 @@ equipments = {
 		priority = 5
 		visual_level = 0
 		
-		hard_attack = 5
-		soft_attack = 10
+		hard_attack = 14.85
+		soft_attack = 15.15
 		armor_value = 20
 		ap_attack = 16
 
-		hardness = 0.68
+		#hardness = 0
 
-		breakthrough = 7
-		defense = 5
+		breakthrough = 30.29
+		defense = 45.44
 
 		maximum_speed = 5
 		reliability = 0.82
@@ -252,12 +252,12 @@ equipments = {
 		air_attack = 0
 		max_strength = 1
 
-		build_cost_ic = 16
+		build_cost_ic = 5.46
 		resources = {
 			steel = 2
 			tungsten = 0.2
 		}
-		fuel_consumption = 2
+		fuel_consumption = 0.18
 	}
 
 	generic_ghost_light_equipment_1 = { 
@@ -278,15 +278,15 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
-		hard_attack = 10
-		soft_attack = 9
+		hard_attack = 28.25
+		soft_attack = 28.1
 		armor_value = 15
 		ap_attack = 34
 
-		hardness = 0.7
+		#hardness = 0
 
-		breakthrough = 17
-		defense = 13
+		breakthrough = 56.19
+		defense = 84.29
 
 		maximum_speed = 9
 		reliability = 0.78
@@ -295,12 +295,12 @@ equipments = {
 		max_strength = 2
         #max_strength = 1
 		
-		build_cost_ic = 18
+		build_cost_ic = 5.87
 		resources = {
 			steel = 2
 			tungsten = 0.5
 		}
-		fuel_consumption = 2.5
+		fuel_consumption = 0.4
 	}
 
 	# WW1 tank
@@ -322,7 +322,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 2
 		breakthrough = 2
-		hardness = 0.2
+		#hardness = 0.2
 		armor_value = 5
 
 		#Offensive Abilities
@@ -332,7 +332,7 @@ equipments = {
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 2
+		lend_lease_cost = 10
 		
 		build_cost_ic = 16
 		resources = {
@@ -388,7 +388,7 @@ equipments = {
 		defense = 5
 		breakthrough = 20
 		armor_value = 15
-		hardness = 0.6
+		#hardness = 0.6
 
 		#Offensive Abilities
 		soft_attack = 16
@@ -430,7 +430,7 @@ equipments = {
 		defense = 6
 		breakthrough = 32
 		armor_value = 20
-		hardness = 0.8
+		#hardness = 0.8
 
 		#Offensive Abilities
 		soft_attack = 22
@@ -517,15 +517,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 0.22
-        soft_attack = 1.59
+		hard_attack = 10.5
+        soft_attack = 11.86
         armor_value = 10
         ap_attack = 3
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 4.02
-        defense = 8.29
+        breakthrough = 23.72
+        defense = 35.58
 
         maximum_speed = 2
         reliability = 0.21
@@ -557,7 +557,7 @@ equipments = {
         armor_value = 5
         ap_attack = 1
 
-        hardness = 0.73
+        #hardness = 0.73
 
         breakthrough = 2.1
         defense = 2.1
@@ -587,15 +587,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 2.31
-        soft_attack = 6.22
+		hard_attack = 16.19
+        soft_attack = 20.26
         armor_value = 10
         ap_attack = 24
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 7.33
-        defense = 11.26
+        breakthrough = 40.51
+        defense = 60.77
 
         maximum_speed = 5.6
         reliability = 0.66
@@ -620,15 +620,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 2.69
-        soft_attack = 7.25
+		hard_attack = 26.06
+        soft_attack = 31.23
         armor_value = 25
         ap_attack = 24
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 13.18
-        defense = 18.32
+        breakthrough = 62.47
+        defense = 93.7
 
         maximum_speed = 6.3
         reliability = 0.72
@@ -667,15 +667,15 @@ equipments = {
 			cze_light_equipment_1
 		}
 
-		hard_attack = 3.8
-        soft_attack = 8.56
+		hard_attack = 28.88
+        soft_attack = 34.76
         armor_value = 30
         ap_attack = 34
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 14.16
-        defense = 18.32
+        breakthrough = 69.53
+        defense = 104.29
 
         maximum_speed = 7.8
         reliability = 0.75
@@ -710,15 +710,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = no
 
-		hard_attack = 4.4
-        soft_attack = 9.9
+		hard_attack = 30.16
+        soft_attack = 36.25
         armor_value = 50
         ap_attack = 42
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 17.16
-        defense = 19.19
+        breakthrough = 72.5
+        defense = 108.76
 
         maximum_speed = 8.5
         reliability = 0.75
@@ -750,7 +750,7 @@ equipments = {
         armor_value = 8
         ap_attack = 12
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 1.8
         defense = 2.8
@@ -788,15 +788,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 2.76
-        soft_attack = 3.02
+		hard_attack = 28.36
+        soft_attack = 26.74
         armor_value = 15
         ap_attack = 16
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 18.28
-        defense = 17.21
+        breakthrough = 53.47
+        defense = 80.21
 
         maximum_speed = 8
         reliability = 0.70
@@ -829,7 +829,7 @@ equipments = {
         armor_value = 30
         ap_attack = 42
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 11.3
         defense = 15
@@ -861,15 +861,15 @@ equipments = {
 			hun_light_equipment_2
 		}
 
-		hard_attack = 7.84
-        soft_attack = 14.25
+		hard_attack = 50.31
+        soft_attack = 57.05
         armor_value = 50
         ap_attack = 52
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 27.81
-        defense = 27.76
+        breakthrough = 114.09
+        defense = 171.14
 
         maximum_speed = 9
         reliability = 0.72
@@ -901,7 +901,7 @@ equipments = {
         armor_value = 5
         ap_attack = 3
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 2
         defense = 2
@@ -944,7 +944,7 @@ equipments = {
         armor_value = 15
         ap_attack = 12
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 7
         defense = 7
@@ -980,7 +980,7 @@ equipments = {
         armor_value = 20
         ap_attack = 52
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 15.9
         defense = 16.4
@@ -1017,7 +1017,7 @@ equipments = {
         armor_value = 50
         ap_attack = 52
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 16.2
         defense = 21.6
@@ -1047,15 +1047,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.62
-		soft_attack = 1.85
+		hard_attack = 30.29
+		soft_attack = 31.07
 		armor_value = 50.8
 		ap_attack = 12
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 16.46
-		defense = 32.69
+		breakthrough = 62.13
+		defense = 93.2
 
 		maximum_speed = 3.8
 		reliability = 0.70
@@ -1083,15 +1083,15 @@ equipments = {
 			fra_support_tank_equipment_1
 		}
 
-		hard_attack = 1.76
-		soft_attack = 3.45
+		hard_attack = 31.78
+		soft_attack = 32.66
 		armor_value = 50.8
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 16.46
-		defense = 32.69
+		breakthrough = 65.32
+		defense = 97.98
 
 		maximum_speed = 3.8
 		reliability = 0.72
@@ -1127,15 +1127,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 0.39
-		soft_attack = 1.38
+		hard_attack = 14.85
+		soft_attack = 15.15
 		armor_value = 20
 		ap_attack = 16
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 5.66
-		defense = 14.58
+		breakthrough = 30.29
+		defense = 45.44
 
 		maximum_speed = 3.8
 		reliability = 0.72
@@ -1170,15 +1170,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.28
-		soft_attack = 0.4
+		hard_attack = 18.21
+		soft_attack = 17.76
 		armor_value = 13
 		ap_attack = 8
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 9.99
-		defense = 14.69
+		breakthrough = 35.52
+		defense = 53.27
 
 		maximum_speed = 8.2
 		reliability = 0.7
@@ -1203,15 +1203,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.26
-		soft_attack = 0.38
+		hard_attack = 18.15
+		soft_attack = 17.73
 		armor_value = 13
 		ap_attack = 8
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 9.48
-		defense = 14.69
+		breakthrough = 35.46
+		defense = 53.19
 
 		maximum_speed = 9.8
 		reliability = 0.64
@@ -1236,15 +1236,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.71
-		soft_attack = 2.13
+		hard_attack = 33.44
+		soft_attack = 34.45
 		armor_value = 48.4
 		ap_attack = 12
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.71
-		defense = 28.05
+		breakthrough = 68.91
+		defense = 103.36
 
 		maximum_speed = 5.2
 		reliability = 0.64
@@ -1272,15 +1272,15 @@ equipments = {
 			fra_light_equipment_1
 		}
 
-		hard_attack = 2.21
-		soft_attack = 4.34
+		hard_attack = 41.04
+		soft_attack = 42.4
 		armor_value = 53.3
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 19.78
-		defense = 36.0
+		breakthrough = 84.8
+		defense = 127.2
 
 		maximum_speed = 6.6
 		reliability = 0.66
@@ -1315,15 +1315,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = no
 
-		hard_attack = 5.34
-		soft_attack = 9.62
+		hard_attack = 35.28
+		soft_attack = 37.53
 		armor_value = 23.8
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 14.35
-		defense = 20.08
+		breakthrough = 75.05
+		defense = 112.58
 
 		maximum_speed = 7.8
 		reliability = 0.72
@@ -1363,15 +1363,15 @@ equipments = {
 			fra_support_tank_equipment_1
 		}
 
-		hard_attack = 6.08
-		soft_attack = 10.95
+		hard_attack = 71.03
+		soft_attack = 75.55
 		armor_value = 70
 		ap_attack = 24
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 24.96
-		defense = 35.23
+		breakthrough = 151.09
+		defense = 226.64
 
 		maximum_speed = 4
 		reliability = 0.65
@@ -1402,7 +1402,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 74
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 13.8
 		defense = 14.9
@@ -1433,15 +1433,15 @@ equipments = {
 			fra_light_equipment_4
 		}
 
-		hard_attack = 57.52
-		soft_attack = 57.63
+		hard_attack = 141.89
+		soft_attack = 148.05
 		armor_value = 52.3
 		ap_attack = 97
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 33.62
-		defense = 31.6
+		breakthrough = 296.11
+		defense = 444.16
 
 		maximum_speed = 11.4
 		reliability = 0.72
@@ -1470,7 +1470,7 @@ equipments = {
 		armor_value = 90
 		ap_attack = 174
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 26.4
 		defense = 28.5
@@ -1500,15 +1500,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 1.59
-		soft_attack = 3.57
+		hard_attack = 11.16
+		soft_attack = 12.5
 		armor_value = 15
 		ap_attack = 16
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 4.61
-		defense = 9.13
+		breakthrough = 25.01
+		defense = 37.51
 
 		maximum_speed = 3.8
 		reliability = 0.72
@@ -1543,15 +1543,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.25
-		soft_attack = 0.56
+		hard_attack = 13.44
+		soft_attack = 13.32
 		armor_value = 26.7
 		ap_attack = 8
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 8.59
-		defense = 12.18
+		breakthrough = 26.64
+		defense = 39.96
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -1581,15 +1581,15 @@ equipments = {
 			ita_light_equipment_1
 		}
 
-		hard_attack = 1.07
-		soft_attack = 0.66
+		hard_attack = 15.16
+		soft_attack = 13.43
 		armor_value = 26.7
 		ap_attack = 8
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 8.59
-		defense = 12.18
+		breakthrough = 26.86
+		defense = 40.29
 
 		maximum_speed = 7.4
 		reliability = 0.77
@@ -1625,15 +1625,15 @@ equipments = {
 		is_convertable = yes
 		
 
-		hard_attack = 2.79
-		soft_attack = 2.14
+		hard_attack = 34.23
+		soft_attack = 31.49
 		armor_value = 46.3
 		ap_attack = 38
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.8
-		defense = 20.7
+		breakthrough = 62.98
+		defense = 94.46
 
 		maximum_speed = 7.6
 		reliability = 0.64
@@ -1673,7 +1673,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 10.8
 		defense = 14.4
@@ -1703,15 +1703,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 1.97
-		soft_attack = 1.64
+		hard_attack = 16.84
+		soft_attack = 14.46
 		armor_value = 4
 		ap_attack = 2
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.17
-		defense = 8.22
+		breakthrough = 28.93
+		defense = 43.39
 
 		maximum_speed = 7.4
 		reliability = 0.64
@@ -1746,15 +1746,15 @@ equipments = {
 		is_convertable = yes
 		visual_level = 0
 
-		hard_attack = 2.68
-		soft_attack = 4.95
+		hard_attack = 19.05
+		soft_attack = 20.32
 		armor_value = 21.1
 		ap_attack = 23
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 8.88
-		defense = 12.77
+		breakthrough = 40.64
+		defense = 60.95
 
 		maximum_speed = 8.4
 		reliability = 0.72
@@ -1780,15 +1780,15 @@ equipments = {
 		visual_level = 0
 		
 
-		hard_attack = 0.27
-		soft_attack = 0.24
+		hard_attack = 15.44
+		soft_attack = 14.66
 		armor_value = 6
 		ap_attack = 2
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.36
-		defense = 10.18
+		breakthrough = 29.32
+		defense = 43.99
 
 		maximum_speed = 7.4
 		reliability = 0.64
@@ -1816,15 +1816,15 @@ equipments = {
 			jap_light_equipment_2
 		}
 
-		hard_attack = 2.48
-		soft_attack = 4.35
+		hard_attack = 16.47
+		soft_attack = 17.39
 		armor_value = 10
 		ap_attack = 23
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.56
-		defense = 10.21
+		breakthrough = 34.78
+		defense = 52.17
 
 		maximum_speed = 7.8
 		reliability = 0.64
@@ -1864,15 +1864,15 @@ equipments = {
 			jap_light_equipment_2
 		}
 
-		hard_attack = 2.45
-		soft_attack = 8.76
+		hard_attack = 30.85
+		soft_attack = 38.07
 		armor_value = 16
 		ap_attack = 21
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 13.44
-		defense = 18.37
+		breakthrough = 76.15
+		defense = 114.22
 
 		maximum_speed = 6.6
 		reliability = 0.70
@@ -1907,15 +1907,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = no
 
-		hard_attack = 4.36
-		soft_attack = 7.67
+		hard_attack = 27.65
+		soft_attack = 29.42
 		armor_value = 20
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 10.26
-		defense = 11.92
+		breakthrough = 58.84
+		defense = 88.26
 
 		maximum_speed = 9.4
 		reliability = 0.76
@@ -1940,15 +1940,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = no
 
-		hard_attack = 2.87
-		soft_attack = 5.03
+		hard_attack = 18.97
+		soft_attack = 20.14
 		armor_value = 20
 		ap_attack = 42
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 7.53
-		defense = 10.6
+		breakthrough = 40.27
+		defense = 60.41
 
 		maximum_speed = 9
 		reliability = 0.77
@@ -1983,15 +1983,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 11.44
-		soft_attack = 13.36
+		hard_attack = 37.49
+		soft_attack = 36.82
 		armor_value = 22
 		ap_attack = 65
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.96
-		defense = 16.5
+		breakthrough = 73.65
+		defense = 110.47
 
 		maximum_speed = 9.6
 		reliability = 0.72
@@ -2024,7 +2024,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 72
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 16.4
 		defense = 17.9
@@ -2054,15 +2054,15 @@ equipments = {
 		priority = 5
 		visual_level = 0
 
-		hard_attack = 0.46
-		soft_attack = 1.05
+		hard_attack = 21.77
+		soft_attack = 21.51
 		armor_value = 20.5
 		ap_attack = 3
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 10.86
-		defense = 12.56
+		breakthrough = 43.02
+		defense = 64.54
 
 		maximum_speed = 7.6
 		reliability = 0.65
@@ -2087,15 +2087,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 4.0
-		soft_attack = 3.42
+		hard_attack = 31.01
+		soft_attack = 27.41
 		armor_value = 22.5
 		ap_attack = 13
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 13.39
-		defense = 15.6
+		breakthrough = 54.82
+		defense = 82.23
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -2123,15 +2123,15 @@ equipments = {
 			ger_light_equipment_1
 		}
 
-		hard_attack = 4.0
-		soft_attack = 3.42
+		hard_attack = 41.31
+		soft_attack = 37.71
 		armor_value = 44
 		ap_attack = 14
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 19.5
-		defense = 22.71
+		breakthrough = 75.41
+		defense = 113.12
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -2171,15 +2171,15 @@ equipments = {
 			cze_light_equipment_2
 		}
 		
-		hard_attack = 3.8
-		soft_attack = 8.56
+		hard_attack = 28.88
+		soft_attack = 34.76
 		armor_value = 28.1
 		ap_attack = 34
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 14.16
-		defense = 18.32
+		breakthrough = 69.53
+		defense = 104.29
 
 		maximum_speed = 7.8
 		reliability = 0.77
@@ -2211,15 +2211,15 @@ equipments = {
 			ger_light_equipment_3
 		}
 		
-		hard_attack = 3.8
-		soft_attack = 8.56
+		hard_attack = 47.94
+		soft_attack = 53.82
 		armor_value = 57.4
 		ap_attack = 34
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 26.86
-		defense = 34.76
+		breakthrough = 107.64
+		defense = 161.47
 
 		maximum_speed = 7.4
 		reliability = 0.93
@@ -2255,15 +2255,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = no
 
-		hard_attack = 4.42
-		soft_attack = 3.77
+		hard_attack = 45.93
+		soft_attack = 41.95
 		armor_value = 47
 		ap_attack = 15
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 23.99
-		defense = 25.3
+		breakthrough = 83.9
+		defense = 125.86
 
 		maximum_speed = 10.8
 		reliability = 0.77
@@ -2298,15 +2298,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 24.52
-		soft_attack = 31.23
+		hard_attack = 103.35
+		soft_attack = 111.4
 		armor_value = 121.4
 		ap_attack = 68
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 42.91
-		defense = 35.36
+		breakthrough = 222.79
+		defense = 334.19
 
 		maximum_speed = 11
 		reliability = 0.70
@@ -2341,15 +2341,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 39.0
-		soft_attack = 58.53
+		hard_attack = 121.07
+		soft_attack = 151.74
 		armor_value = 95
 		ap_attack = 114
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 55.49
-		defense = 42.99
+		breakthrough = 303.48
+		defense = 455.22
 
 		maximum_speed = 12
 		reliability = 0.78
@@ -2389,7 +2389,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 152
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 57.12
 		defense = 53
@@ -2419,15 +2419,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 5.99
-		soft_attack = 7.5
+		hard_attack = 29.72
+		soft_attack = 26.55
 		armor_value = 21.3
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.96
-		defense = 12.1
+		breakthrough = 53.11
+		defense = 79.66
 
 		maximum_speed = 6.8
 		reliability = 0.60
@@ -2457,7 +2457,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 51
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 8.1
 		defense = 10.8
@@ -2495,15 +2495,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 7.85
-		soft_attack = 9.51
+		hard_attack = 70.69
+		soft_attack = 64.99
 		armor_value = 62.5
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 28.21
-		defense = 37.43
+		breakthrough = 129.98
+		defense = 194.98
 
 		maximum_speed = 10.8
 		reliability = 0.58
@@ -2538,15 +2538,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 1.27
-		soft_attack = 1.93
+		hard_attack = 26.58
+		soft_attack = 24.97
 		armor_value = 34.5
 		ap_attack = 12
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 10.77
-		defense = 15.03
+		breakthrough = 49.94
+		defense = 74.91
 
 		maximum_speed = 9.6
 		reliability = 0.63
@@ -2574,15 +2574,15 @@ equipments = {
 			sov_light_equipment_4
 		}
 
-		hard_attack = 8.37
-		soft_attack = 10.14
+		hard_attack = 68.59
+		soft_attack = 61.63
 		armor_value = 60.9
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 21.14
-		defense = 28.87
+		breakthrough = 123.26
+		defense = 184.89
 
 		maximum_speed = 9.8
 		reliability = 0.63
@@ -2612,7 +2612,7 @@ equipments = {
 		armor_value = 65
 		ap_attack = 62
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 16.7
 		defense = 22.2
@@ -2650,15 +2650,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 22.07
-		soft_attack = 42.63
+		hard_attack = 89.91
+		soft_attack = 110.15
 		armor_value = 29.5
 		ap_attack = 125
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 22.16
-		defense = 21.07
+		breakthrough = 220.3
+		defense = 330.46
 
 		maximum_speed = 8.6
 		reliability = 0.76
@@ -2685,15 +2685,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 0.77
-		soft_attack = 0.89
+		hard_attack = 11.1
+		soft_attack = 10.75
 		armor_value = 23.8
 		ap_attack = 6
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.82
-		defense = 14.99
+		breakthrough = 21.5
+		defense = 32.26
 
 		maximum_speed = 10
 		reliability = 0.66
@@ -2728,15 +2728,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 7.27
-		soft_attack = 1.42
+		hard_attack = 23.51
+		soft_attack = 14.48
 		armor_value = 17.5
 		ap_attack = 44
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 15.92
-		defense = 14.7
+		breakthrough = 28.95
+		defense = 43.43
 
 		maximum_speed = 11.4
 		reliability = 0.70
@@ -2771,15 +2771,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 6.47
-		soft_attack = 1.26
+		hard_attack = 34.16
+		soft_attack = 24.55
 		armor_value = 45
 		ap_attack = 61
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 25.19
-		defense = 26.15
+		breakthrough = 49.11
+		defense = 73.66
 
 		maximum_speed = 9
 		reliability = 0.5
@@ -2819,7 +2819,7 @@ equipments = {
 		armor_value = 29.8
 		ap_attack = 64
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 7.7
 		defense = 7.8
@@ -2857,15 +2857,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 64.6
-		soft_attack = 53.6
+		hard_attack = 121.41
+		soft_attack = 99.5
 		armor_value = 75
 		ap_attack = 96
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 26.75
-		defense = 21.24
+		breakthrough = 198.99
+		defense = 298.49
 
 		maximum_speed = 11
 		reliability = 0.72
@@ -2905,7 +2905,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 131
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 32.4
 		defense = 35.7
@@ -2935,15 +2935,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 11.0
-		soft_attack = 12.61
+		hard_attack = 52.99
+		soft_attack = 48.75
 		armor_value = 31
 		ap_attack = 6
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 21.72
-		defense = 21.35
+		breakthrough = 97.5
+		defense = 146.25
 
 		maximum_speed = 10.8
 		reliability = 0.70
@@ -2978,15 +2978,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 9.8
-		soft_attack = 9.86
+		hard_attack = 42.65
+		soft_attack = 37.51
 		armor_value = 29.8
 		ap_attack = 64
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 21.96
-		defense = 21.3
+		breakthrough = 75.01
+		defense = 112.52
 
 		maximum_speed = 10.8
 		reliability = 0.77
@@ -3021,15 +3021,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 10.48
-		soft_attack = 11.65
+		hard_attack = 51.86
+		soft_attack = 48.53
 		armor_value = 43.5
 		ap_attack = 54
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 26.71
-		defense = 27.54
+		breakthrough = 97.06
+		defense = 145.6
 
 		maximum_speed = 10.0
 		reliability = 0.70
@@ -3057,15 +3057,15 @@ equipments = {
 			usa_light_equipment_1
 		}
 
-		hard_attack = 14.66
-		soft_attack = 13.79
+		hard_attack = 60.29
+		soft_attack = 56.05
 		armor_value = 54.6
 		ap_attack = 64
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 30.52
-		defense = 31.47
+		breakthrough = 112.11
+		defense = 168.16
 
 		maximum_speed = 10.2
 		reliability = 0.77
@@ -3100,15 +3100,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 28.46
-		soft_attack = 46.83
+		hard_attack = 94.86
+		soft_attack = 116.32
 		armor_value = 43.6
 		ap_attack = 84
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 33.95
-		defense = 33.89
+		breakthrough = 232.64
+		defense = 348.96
 
 		maximum_speed = 10
 		reliability = 0.78
@@ -3148,7 +3148,7 @@ equipments = {
 		armor_value = 44.7
 		ap_attack = 116
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 40.8
 		defense = 40.7
@@ -3191,7 +3191,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 168
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 49
 		defense = 49
@@ -3392,7 +3392,7 @@ equipments = {
         armor_value = 6
         ap_attack = 12
 
-        hardness = 0.63
+        #hardness = 0.63
 
         breakthrough = 0.6
         defense = 2.1
@@ -3430,7 +3430,7 @@ equipments = {
         armor_value = 50
         ap_attack = 35
 
-        hardness = 0.76
+        #hardness = 0.76
 
         breakthrough = 4.7
         defense = 5.3
@@ -3465,7 +3465,7 @@ equipments = {
         armor_value = 50
         ap_attack = 32
 
-        hardness = 0.76
+        #hardness = 0.76
 
         breakthrough = 1.8
         defense = 3
@@ -3498,15 +3498,15 @@ equipments = {
 			fra_interwar_equipment_1
 		}
 
-		hard_attack = 0.69
-		soft_attack = 4.46
+		hard_attack = 15.36
+		soft_attack = 17.09
 		armor_value = 20
 		ap_attack = 4
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 5.66
-		defense = 14.58
+		breakthrough = 34.19
+		defense = 51.28
 
 		maximum_speed = 3.8
 		reliability = 0.70
@@ -3547,7 +3547,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 15
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1.8
 		defense = 2
@@ -3594,7 +3594,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 15
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 3.2
 		defense = 7.7
@@ -3630,7 +3630,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 18
 
-		hardness = 0.36
+		#hardness = 0.36
 
 		breakthrough = 3.4
 		defense = 7.7
@@ -3663,15 +3663,15 @@ equipments = {
 			ita_light_equipment_1
 		}
 
-		hard_attack = 0.0
-		soft_attack = 5.71
+		hard_attack = 7.7
+		soft_attack = 14.08
 		armor_value = 15
 		ap_attack = 8
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 5.15
-		defense = 7.31
+		breakthrough = 28.15
+		defense = 42.23
 
 		maximum_speed = 6
 		reliability = 0.64
@@ -3714,7 +3714,7 @@ equipments = {
 		armor_value = 25
 		ap_attack = 14
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1.8
 		defense = 6.3
@@ -3746,15 +3746,15 @@ equipments = {
 			jap_light_equipment_3
 		}
 
-		hard_attack = 1.57
-		soft_attack = 9.09
+		hard_attack = 10.02
+		soft_attack = 18.95
 		armor_value = 10
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 4.84
-		defense = 5.17
+		breakthrough = 37.9
+		defense = 56.85
 
 		maximum_speed = 7.6
 		reliability = 0.70
@@ -3792,15 +3792,15 @@ equipments = {
 			jap_light_equipment_6
 		}
 
-		hard_attack = 5.95
-		soft_attack = 10.54
+		hard_attack = 13.23
+		soft_attack = 18.19
 		armor_value = 20
 		ap_attack = 16
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 4.04
-		defense = 4.11
+		breakthrough = 36.39
+		defense = 54.58
 
 		maximum_speed = 9.6
 		reliability = 0.66
@@ -3829,15 +3829,15 @@ equipments = {
 			ger_light_equipment_0
 		}
 
-		hard_attack = 1.43
-		soft_attack = 13.6
+		hard_attack = 6.38
+		soft_attack = 19.2
 		armor_value = 13
 		ap_attack = 5
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 3.71
-		defense = 4.08
+		breakthrough = 38.4
+		defense = 57.59
 
 		maximum_speed = 7.2
 		reliability = 0.63
@@ -3876,15 +3876,15 @@ equipments = {
 			ger_light_equipment_2
 		}
 
-		hard_attack = 1.5
-		soft_attack = 11.79
+		hard_attack = 7.16
+		soft_attack = 17.67
 		armor_value = 30.6
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 4.68
-		defense = 4.88
+		breakthrough = 35.35
+		defense = 53.02
 
 		maximum_speed = 8
 		reliability = 0.70
@@ -3923,15 +3923,15 @@ equipments = {
 			ger_light_equipment_3_5
 		}
 
-		hard_attack = 1.13
-		soft_attack = 8.84
+		hard_attack = 6.13
+		soft_attack = 14.82
 		armor_value = 24
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 5.51
-		defense = 5.75
+		breakthrough = 29.64
+		defense = 44.46
 
 		maximum_speed = 6.4
 		reliability = 0.72
@@ -3971,15 +3971,15 @@ equipments = {
 			ger_light_equipment_4
 		}
 
-		hard_attack = 0.0
-		soft_attack = 13.13
+		hard_attack = 4.39
+		soft_attack = 20.21
 		armor_value = 18
 		ap_attack = 10
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 3.37
-		defense = 3.66
+		breakthrough = 40.41
+		defense = 60.62
 
 		maximum_speed = 7.4
 		reliability = 0.77
@@ -4017,15 +4017,15 @@ equipments = {
 			ger_light_equipment_5
 		}
 
-		hard_attack = 0.12
-		soft_attack = 13.43
+		hard_attack = 12.17
+		soft_attack = 37.15
 		armor_value = 30
 		ap_attack = 20
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 11.43
-		defense = 10.61
+		breakthrough = 74.3
+		defense = 111.46
 
 		maximum_speed = 10.8
 		reliability = 0.70
@@ -4054,15 +4054,15 @@ equipments = {
 			sov_light_equipment_1
 		}
 
-		hard_attack = 0.0
-		soft_attack = 5.61
+		hard_attack = 7.35
+		soft_attack = 15.77
 		armor_value = 14
 		ap_attack = 0
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 4.19
-		defense = 7.26
+		breakthrough = 31.53
+		defense = 47.3
 
 		maximum_speed = 6
 		reliability = 0.64
@@ -4089,15 +4089,15 @@ equipments = {
 			sov_light_equipment_1
 		}
 
-		hard_attack = 0.0
-		soft_attack = 1.29
+		hard_attack = 2.94
+		soft_attack = 3.86
 		armor_value = 21
 		ap_attack = 2
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 1.64
-		defense = 2.47
+		breakthrough = 7.71
+		defense = 11.57
 
 		maximum_speed = 6.8
 		reliability = 0.60
@@ -4140,7 +4140,7 @@ equipments = {
 		armor_value = 15
 		ap_attack = 5
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1.5
 		defense = 1.8
@@ -4178,7 +4178,7 @@ equipments = {
 		armor_value = 5
 		ap_attack = 23
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 1.5
 		defense = 3.2
@@ -4219,15 +4219,15 @@ equipments = {
 			eng_light_equipment_4
 		}
 
-		hard_attack = 0.22
-		soft_attack = 22.32
+		hard_attack = 12.61
+		soft_attack = 41.72
 		armor_value = 15
 		ap_attack = 28
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 7.72
-		defense = 6.37
+		breakthrough = 83.44
+		defense = 125.17
 
 		maximum_speed = 11
 		reliability = 0.72
@@ -4256,15 +4256,15 @@ equipments = {
 			usa_light_equipment_2
 		}
 
-		hard_attack = 4.93
-		soft_attack = 4.39
+		hard_attack = 21.79
+		soft_attack = 16.24
 		armor_value = 43.7
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 7.94
-		defense = 8.63
+		breakthrough = 32.49
+		defense = 48.73
 
 		maximum_speed = 9
 		reliability = 0.77
@@ -4302,15 +4302,15 @@ equipments = {
 			usa_light_equipment_3
 		}
 
-		hard_attack = 0.0
-		soft_attack = 13.31
+		hard_attack = 3.31
+		soft_attack = 19.74
 		armor_value = 30
 		ap_attack = 22
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 3.22
-		defense = 3.71
+		breakthrough = 39.47
+		defense = 59.21
 
 		maximum_speed = 10
 		reliability = 0.82
@@ -4353,7 +4353,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 25
 
-		hardness = 0.56
+		#hardness = 0.56
 
 		breakthrough = 4.7
 		defense = 9.6
@@ -4494,7 +4494,7 @@ equipments = {
         armor_value = 5
         ap_attack = 22
 
-        hardness = 0.73
+        #hardness = 0.73
 
         breakthrough = 1.3
         defense = 1.3
@@ -4528,7 +4528,7 @@ equipments = {
         armor_value = 20
         ap_attack = 32
 
-        hardness = 0.76
+        #hardness = 0.76
 
         breakthrough = 2.5
         defense = 2.7
@@ -4562,7 +4562,7 @@ equipments = {
         armor_value = 30
         ap_attack = 158
 
-        hardness = 0.6
+        #hardness = 0.6
 
         breakthrough = 3.8
         defense = 4.1
@@ -4596,7 +4596,7 @@ equipments = {
         armor_value = 35
         ap_attack = 71
 
-        hardness = 0.68
+        #hardness = 0.68
 
         breakthrough = 1.4
         defense = 1.6
@@ -4634,15 +4634,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 15.08
-        soft_attack = 13.16
+		hard_attack = 30.76
+        soft_attack = 30.45
         armor_value = 40
         ap_attack = 94
 
-        hardness = 1
+        #hardness = 0
 
-        breakthrough = 8.07
-        defense = 12.54
+        breakthrough = 60.9
+        defense = 91.35
 
         maximum_speed = 9
         reliability = 0.70
@@ -4674,15 +4674,15 @@ equipments = {
 			fra_light_equipment_0_5
 		}
 
-		hard_attack = 4.19
-		soft_attack = 3.14
+		hard_attack = 25.25
+		soft_attack = 18.87
 		armor_value = 18.7
 		ap_attack = 22
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 12.36
-		defense = 16.9
+		breakthrough = 37.75
+		defense = 56.62
 
 		maximum_speed = 11.6
 		reliability = 0.64
@@ -4726,7 +4726,7 @@ equipments = {
 		armor_value = 25
 		ap_attack = 75
 
-		hardness = 0.76
+		#hardness = 0.76
 
 		breakthrough = 3
 		defense = 3.3
@@ -4760,15 +4760,15 @@ equipments = {
 			ita_light_equipment_1
 		}
 
-		hard_attack = 1.96
-		soft_attack = 2.05
+		hard_attack = 16.18
+		soft_attack = 14.71
 		armor_value = 10
 		ap_attack = 32
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 8.79
-		defense = 12.47
+		breakthrough = 29.42
+		defense = 44.12
 
 		maximum_speed = 7
 		reliability = 0.72
@@ -4807,15 +4807,15 @@ equipments = {
 			ita_light_equipment_3
 		}
 
-		hard_attack = 2.17
-		soft_attack = 1.69
+		hard_attack = 15.18
+		soft_attack = 13.16
 		armor_value = 51.6
 		ap_attack = 52
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 7.29
-		defense = 12.42
+		breakthrough = 26.33
+		defense = 39.49
 
 		maximum_speed = 7.6
 		reliability = 0.64
@@ -4858,7 +4858,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 72
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 3.2
 		defense = 9.6
@@ -4890,15 +4890,15 @@ equipments = {
 			jap_light_equipment_3
 		}
 
-		hard_attack = 5.84
-		soft_attack = 3.65
+		hard_attack = 18.92
+		soft_attack = 13.96
 		armor_value = 10
 		ap_attack = 62
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 7.26
-		defense = 8.95
+		breakthrough = 27.92
+		defense = 41.88
 
 		maximum_speed = 6.6
 		reliability = 0.70
@@ -4941,7 +4941,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 65
 
-		hardness = 0.80
+		#hardness = 0.80
 
 		breakthrough = 2.8
 		defense = 8.8
@@ -4973,15 +4973,15 @@ equipments = {
 			ger_light_equipment_0
 		}
 
-		hard_attack = 6.89
-		soft_attack = 4.96
+		hard_attack = 16.59
+		soft_attack = 12.38
 		armor_value = 22.2
 		ap_attack = 46
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 9.16
-		defense = 8.49
+		breakthrough = 24.76
+		defense = 37.13
 
 		maximum_speed = 7.2
 		reliability = 0.65
@@ -5029,15 +5029,15 @@ equipments = {
 			fra_medium_equipment_1
 		}
 
-		hard_attack = 4.81
-		soft_attack = 5.71
+		hard_attack = 10.22
+		soft_attack = 10.23
 		armor_value = 15
 		ap_attack = 88
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 5.33
-		defense = 7.13
+		breakthrough = 20.47
+		defense = 30.7
 
 		maximum_speed = 6.8
 		reliability = 0.66
@@ -5066,15 +5066,15 @@ equipments = {
 			ger_light_equipment_2
 		}
 
-		hard_attack = 6.2
-		soft_attack = 7.36
+		hard_attack = 12.31
+		soft_attack = 12.33
 		armor_value = 15
 		ap_attack = 92
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 6.99
-		defense = 6.98
+		breakthrough = 24.66
+		defense = 36.99
 
 		maximum_speed = 9
 		reliability = 0.66
@@ -5115,15 +5115,15 @@ equipments = {
 			
 		}
 
-		hard_attack = 13.04
-		soft_attack = 9.73
+		hard_attack = 28.05
+		soft_attack = 22.48
 		armor_value = 37.9
 		ap_attack = 94
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 16.61
-		defense = 16.1
+		breakthrough = 44.95
+		defense = 67.43
 
 		maximum_speed = 10
 		reliability = 0.72
@@ -5162,15 +5162,15 @@ equipments = {
 			ger_light_equipment_3_5
 		}
 
-		hard_attack = 13.88
-		soft_attack = 10.41
+		hard_attack = 53.77
+		soft_attack = 48.57
 		armor_value = 106.5
 		ap_attack = 92
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 24.76
-		defense = 31.26
+		breakthrough = 97.14
+		defense = 145.71
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -5208,15 +5208,15 @@ equipments = {
 			ger_light_equipment_5
 		}
 
-		hard_attack = 24.7
-		soft_attack = 14.88
+		hard_attack = 67.61
+		soft_attack = 50.33
 		armor_value = 90
 		ap_attack = 136
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 22.86
-		defense = 21.21
+		breakthrough = 100.65
+		defense = 150.98
 
 		maximum_speed = 9.4
 		reliability = 0.70
@@ -5259,7 +5259,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 164
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 10.3
 		defense = 11.7
@@ -5295,7 +5295,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 204
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 14.4
 		defense = 19.2
@@ -5482,15 +5482,15 @@ equipments = {
 		priority = 41
 		visual_level = 2
 
-		hard_attack = 8.4
-		soft_attack = 14.04
+		hard_attack = 25.51
+		soft_attack = 31.05
 		armor_value = 20
 		ap_attack = 45
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 5.61
-		defense = 5.82
+		breakthrough = 62.1
+		defense = 93.15
 
 		maximum_speed = 9
 		reliability = 0.66
@@ -5526,7 +5526,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 36
 
-		hardness = 0.76
+		#hardness = 0.76
 
 		breakthrough = 1.5
 		defense = 2
@@ -5563,7 +5563,7 @@ equipments = {
 		armor_value = 10
 		ap_attack = 3
 
-		hardness = 0.44
+		#hardness = 0.44
 
 		breakthrough = 1
 		defense = 1.3
@@ -5609,7 +5609,7 @@ equipments = {
 		armor_value = 10
 		ap_attack = 12
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1
 		defense = 1.3
@@ -5655,7 +5655,7 @@ equipments = {
 		armor_value = 12
 		ap_attack = 12
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1
 		defense = 1.4
@@ -5692,7 +5692,7 @@ equipments = {
 		armor_value = 10
 		ap_attack = 3
 
-		hardness = 0.56
+		#hardness = 0.56
 
 		breakthrough = 1
 		defense = 1.3
@@ -5733,15 +5733,15 @@ equipments = {
 			jap_light_equipment_4
 		}
 
-		hard_attack = 2.34
-		soft_attack = 2.67
+		hard_attack = 16.62
+		soft_attack = 14.9
 		armor_value = 10
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 5.04
-		defense = 7.97
+		breakthrough = 29.79
+		defense = 44.69
 
 		maximum_speed = 9
 		reliability = 0.72
@@ -5779,15 +5779,15 @@ equipments = {
 			jap_light_equipment_6
 		}
 
-		hard_attack = 3.9
-		soft_attack = 2.52
+		hard_attack = 27.7
+		soft_attack = 22.32
 		armor_value = 10
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 8.4
-		defense = 13.29
+		breakthrough = 44.63
+		defense = 66.95
 
 		maximum_speed = 9.6
 		reliability = 0.72
@@ -5816,15 +5816,15 @@ equipments = {
 			ger_light_equipment_0
 		}
 
-		hard_attack = 0.28
-		soft_attack = 2.49
+		hard_attack = 8.93
+		soft_attack = 11.64
 		armor_value = 13.9
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 6.08
-		defense = 7.54
+		breakthrough = 23.28
+		defense = 34.92
 
 		maximum_speed = 9
 		reliability = 0.66
@@ -5868,7 +5868,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 12
 
-		hardness = 0.49
+		#hardness = 0.49
 
 		breakthrough = 1
 		defense = 1.4
@@ -5910,15 +5910,15 @@ equipments = {
 			ger_light_equipment_3_5
 		}
 
-		hard_attack = 0.41
-		soft_attack = 3.6
+		hard_attack = 10.0
+		soft_attack = 14.26
 		armor_value = 30
 		ap_attack = 12
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 7.05
-		defense = 7.06
+		breakthrough = 28.52
+		defense = 42.78
 
 		maximum_speed = 8
 		reliability = 0.77
@@ -5961,7 +5961,7 @@ equipments = {
 		armor_value = 28
 		ap_attack = 12
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 2.4
 		defense = 3.2
@@ -5992,15 +5992,15 @@ equipments = {
 			sov_light_equipment_4
 		}
 
-		hard_attack = 1.03
-		soft_attack = 0.43
+		hard_attack = 11.16
+		soft_attack = 9.84
 		armor_value = 60
 		ap_attack = 3
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 4.19
-		defense = 7.26
+		breakthrough = 19.67
+		defense = 29.51
 
 		maximum_speed = 8.8
 		reliability = 0.63
@@ -6037,15 +6037,15 @@ equipments = {
 			sov_light_equipment_5
 		}
 
-		hard_attack = 9.43
-		soft_attack = 10.0
+		hard_attack = 44.2
+		soft_attack = 39.26
 		armor_value = 56.1
 		ap_attack = 42
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 16.15
-		defense = 14.42
+		breakthrough = 78.53
+		defense = 117.79
 
 		maximum_speed = 9.6
 		reliability = 0.76
@@ -6084,15 +6084,15 @@ equipments = {
 			sov_light_equipment_6
 		}
 
-		hard_attack = 8.16
-		soft_attack = 8.66
+		hard_attack = 39.08
+		soft_attack = 34.8
 		armor_value = 35.5
 		ap_attack = 42
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 12.66
-		defense = 13.06
+		breakthrough = 69.61
+		defense = 104.41
 
 		maximum_speed = 8.8
 		reliability = 0.70
@@ -6132,15 +6132,15 @@ equipments = {
 			usa_light_equipment_3
 		}
 
-		hard_attack = 14.4
-		soft_attack = 24.08
+		hard_attack = 29.62
+		soft_attack = 46.64
 		armor_value = 19.14
 		ap_attack = 42
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 6.13
-		defense = 6.79
+		breakthrough = 93.27
+		defense = 139.91
 
 		maximum_speed = 10.2
 		reliability = 0.82
@@ -6183,7 +6183,7 @@ equipments = {
 		armor_value = 18.7
 		ap_attack = 35
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 1.5
 		defense = 2
@@ -6233,7 +6233,7 @@ equipments = {
 		defense = 7
 		breakthrough = 40
 		armor_value = 40
-		hardness = 0.8
+		#hardness = 0.8
 
 		#Offensive Abilities
 		soft_attack = 18
@@ -6267,7 +6267,7 @@ equipments = {
 		defense = 9
 		breakthrough = 52
 		armor_value = 60
-		hardness = 0.9
+		#hardness = 0.9
 
 		#Offensive Abilities
 		soft_attack = 20
@@ -6379,7 +6379,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 10
 		breakthrough = 64
-		hardness = 0.95
+		#hardness = 0.95
 		armor_value = 110
 
 		#Offensive Abilities
@@ -6410,7 +6410,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 56
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 10.8
 		defense = 14.4
@@ -6437,15 +6437,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 10.94
-		soft_attack = 3.44
+		hard_attack = 142.43
+		soft_attack = 126.91
 		armor_value = 85
 		ap_attack = 54
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 66.14
-		defense = 75.31
+		breakthrough = 253.83
+		defense = 380.74
 
 		maximum_speed = 7
 		reliability = 0.72
@@ -6473,15 +6473,15 @@ equipments = {
 			can_medium_equipment_1
 		}
 
-		hard_attack = 21.84
-		soft_attack = 32.19
+		hard_attack = 155.44
+		soft_attack = 168.25
 		armor_value = 85
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 66.14
-		defense = 75.31
+		breakthrough = 336.51
+		defense = 504.76
 
 		maximum_speed = 8
 		reliability = 0.77
@@ -6505,15 +6505,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 9.56
-		soft_attack = 2.43
+		hard_attack = 98.15
+		soft_attack = 83.48
 		armor_value = 65
 		ap_attack = 54
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 48.41
-		defense = 55.8
+		breakthrough = 166.97
+		defense = 250.45
 
 		maximum_speed = 7
 		reliability = 0.8
@@ -6538,15 +6538,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 7.8
-		soft_attack = 1.98
+		hard_attack = 78.97
+		soft_attack = 66.99
 		armor_value = 70
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 31.69
-		defense = 44.74
+		breakthrough = 133.98
+		defense = 200.98
 
 		maximum_speed = 8
 		reliability = 0.8
@@ -6575,15 +6575,15 @@ equipments = {
 			ast_medium_equipment_2
 		}
 
-		hard_attack = 44.63
-		soft_attack = 55.78
+		hard_attack = 148.84
+		soft_attack = 166.14
 		armor_value = 70
 		ap_attack = 164
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 48.41
-		defense = 55.8
+		breakthrough = 332.28
+		defense = 498.42
 
 		maximum_speed = 8
 		reliability = 0.76
@@ -6610,15 +6610,15 @@ equipments = {
 			ast_medium_equipment_1
 		}
 
-		hard_attack = 3.9
-		soft_attack = 37.38
+		hard_attack = 103.88
+		soft_attack = 162.24
 		armor_value = 65
 		ap_attack = 23
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 51.73
-		defense = 55.8
+		breakthrough = 324.48
+		defense = 486.73
 
 		maximum_speed = 8
 		reliability = 0.76
@@ -6649,7 +6649,7 @@ equipments = {
 		armor_value = 15
 		ap_attack = 3
 
-		hardness = 0.76
+		#hardness = 0.76
 
 		breakthrough = 5.9
 		defense = 6.2
@@ -6685,7 +6685,7 @@ equipments = {
 		armor_value = 15
 		ap_attack = 34
 
-		hardness = 0.76
+		#hardness = 0.76
 
 		breakthrough = 6.2
 		defense = 6.5
@@ -6727,7 +6727,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 42
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 8.3
 		defense = 8.7
@@ -6760,7 +6760,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 42
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 10
 		defense = 10.8
@@ -6802,7 +6802,7 @@ equipments = {
 		armor_value = 45
 		ap_attack = 56
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 15
 		defense = 16.4
@@ -6844,7 +6844,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 92
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 22.5
 		defense = 30
@@ -6887,7 +6887,7 @@ equipments = {
         armor_value = 125
         ap_attack = 192
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 32.9
         defense = 44
@@ -6917,15 +6917,15 @@ equipments = {
         visual_level = 0
         is_convertable = yes
 
-        hard_attack = 11.03
-        soft_attack = 18.34
+        hard_attack = 49.25
+        soft_attack = 54.82
         armor_value = 40
         ap_attack = 45
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 24.71
-        defense = 24.66
+        breakthrough = 109.63
+        defense = 164.45
 
         maximum_speed = 6
         reliability = 0.70
@@ -6964,7 +6964,7 @@ equipments = {
         armor_value = 60
         ap_attack = 52
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 15.2
         defense = 20.3
@@ -7000,7 +7000,7 @@ equipments = {
         armor_value = 85
         ap_attack = 85
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 23.4
         defense = 26.3
@@ -7042,7 +7042,7 @@ equipments = {
         armor_value = 70
         ap_attack = 92
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 22.1
         defense = 23.6
@@ -7084,7 +7084,7 @@ equipments = {
         armor_value = 90
         ap_attack = 126
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 26.9
         defense = 30
@@ -7118,7 +7118,7 @@ equipments = {
         armor_value = 120
         ap_attack = 192
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 35.4
         defense = 39.6
@@ -7148,15 +7148,15 @@ equipments = {
         visual_level = 0
         is_convertable = yes
 
-        hard_attack = 7.03
-        soft_attack = 13.38
+        hard_attack = 58.93
+        soft_attack = 64.91
         armor_value = 50  
         ap_attack = 52
 
-        hardness = 1.25
+        #hardness = 0
 
-        breakthrough = 36.05
-        defense = 38.47
+        breakthrough = 129.83
+        defense = 194.74
 
         maximum_speed = 7
         reliability = 0.70
@@ -7186,7 +7186,7 @@ equipments = {
         armor_value = 50
         ap_attack = 65
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 15.8
         defense = 17.4
@@ -7219,7 +7219,7 @@ equipments = {
         armor_value = 70
         ap_attack = 106
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 20.9
         defense = 23.3
@@ -7261,7 +7261,7 @@ equipments = {
         armor_value = 120
         ap_attack = 132
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 31.4
         defense = 35.6
@@ -7304,7 +7304,7 @@ equipments = {
         armor_value = 150
         ap_attack = 198
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 35.1
         defense = 46.8
@@ -7339,7 +7339,7 @@ equipments = {
         armor_value = 34
         ap_attack = 52
 
-        hardness = 0.76
+        #hardness = 0.76
 
         breakthrough = 12
         defense = 13
@@ -7381,7 +7381,7 @@ equipments = {
         armor_value = 55
         ap_attack = 88
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 19
         defense = 20.9
@@ -7423,7 +7423,7 @@ equipments = {
         armor_value = 70
         ap_attack = 118
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 21.9
         defense = 24.2
@@ -7465,7 +7465,7 @@ equipments = {
         armor_value = 80
         ap_attack = 155
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 29.1
         defense = 38.9
@@ -7507,7 +7507,7 @@ equipments = {
         armor_value = 120
         ap_attack = 235
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 38.9
         defense = 51.8
@@ -7536,15 +7536,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 1.84
-		soft_attack = 5.14
+		hard_attack = 26.1
+		soft_attack = 28.49
 		armor_value = 52
 		ap_attack = 20
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 8.51
-		defense = 20.89
+		breakthrough = 56.98
+		defense = 85.46
 
 		maximum_speed = 3.4
 		reliability = 0.53
@@ -7569,15 +7569,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 3.21
-		soft_attack = 6.05
+		hard_attack = 35.22
+		soft_attack = 36.56
 		armor_value = 49.5
 		ap_attack = 24
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.93
-		defense = 27.0
+		breakthrough = 73.12
+		defense = 109.68
 
 		maximum_speed = 4.2
 		reliability = 0.60
@@ -7610,15 +7610,15 @@ equipments = {
 		priority = 21
 		visual_level = 2
 
-		hard_attack = 3.31
-		soft_attack = 5.97
+		hard_attack = 40.88
+		soft_attack = 42.44
 		armor_value = 46.2
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 17.44
-		defense = 32.56
+		breakthrough = 84.88
+		defense = 127.32
 
 		maximum_speed = 6.6
 		reliability = 0.66
@@ -7646,15 +7646,15 @@ equipments = {
 			fra_medium_equipment_2
 		}
 
-		hard_attack = 3.56
-		soft_attack = 6.42
+		hard_attack = 44.5
+		soft_attack = 46.17
 		armor_value = 50
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 20.47
-		defense = 35.52
+		breakthrough = 92.35
+		defense = 138.52
 
 		maximum_speed = 6.6
 		reliability = 0.66
@@ -7693,7 +7693,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 74
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 17.4
 		defense = 19.4
@@ -7735,7 +7735,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 102
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 21.8
 		defense = 24.3
@@ -7776,7 +7776,7 @@ equipments = {
 		armor_value = 75.7
 		ap_attack = 174
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 37.2
 		defense = 41.7
@@ -7813,15 +7813,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = no
 
-		hard_attack = 108.99
-		soft_attack = 146.74
+		hard_attack = 238.99
+		soft_attack = 327.29
 		armor_value = 120
 		ap_attack = 205
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 53.22
-		defense = 47.37
+		breakthrough = 654.58
+		defense = 981.88
 
 		maximum_speed = 10.2
 		reliability = 0.77
@@ -7860,7 +7860,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 205
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 44.6
 		defense = 50
@@ -7903,7 +7903,7 @@ equipments = {
 		armor_value = 190
 		ap_attack = 258
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 86.6
 		defense = 84.8
@@ -7945,7 +7945,7 @@ equipments = {
 		armor_value = 90
 		ap_attack = 248
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 53.5
 		defense = 60
@@ -7975,15 +7975,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 2.02
-		soft_attack = 4.87
+		hard_attack = 23.66
+		soft_attack = 26.5
 		armor_value = 43.2
 		ap_attack = 38
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.72
-		defense = 19.83
+		breakthrough = 53.0
+		defense = 79.51
 
 		maximum_speed = 6
 		reliability = 0.60
@@ -8011,15 +8011,15 @@ equipments = {
 			ita_medium_equipment_1
 		}
 
-		hard_attack = 4.52
-		soft_attack = 7.55
+		hard_attack = 40.24
+		soft_attack = 41.13
 		armor_value = 50.9
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 15.99
-		defense = 27.26
+		breakthrough = 82.27
+		defense = 123.4
 
 		maximum_speed = 6
 		reliability = 0.63
@@ -8048,15 +8048,15 @@ equipments = {
 			ita_medium_equipment_2
 		}
 
-		hard_attack = 7.99
-		soft_attack = 10.52
+		hard_attack = 55.15
+		soft_attack = 55.84
 		armor_value = 51.6
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 18.75
-		defense = 31.8
+		breakthrough = 111.68
+		defense = 167.53
 
 		maximum_speed = 6
 		reliability = 0.66
@@ -8090,15 +8090,15 @@ equipments = {
 		priority = 33
 		visual_level = 1
 
-		hard_attack = 10.94
-		soft_attack = 14.41
+		hard_attack = 60.41
+		soft_attack = 61.57
 		armor_value = 33.5
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 25.68
-		defense = 30.05
+		breakthrough = 123.13
+		defense = 184.7
 
 		maximum_speed = 10.2
 		reliability = 0.64
@@ -8131,7 +8131,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 72
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 21.6
 		defense = 28.8
@@ -8168,7 +8168,7 @@ equipments = {
 		armor_value = 90
 		ap_attack = 92
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 27
 		defense = 36
@@ -8211,7 +8211,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 142
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 34.5
 		defense = 45.8
@@ -8255,7 +8255,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 212
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 107.8
 		defense = 108
@@ -8285,15 +8285,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 1.89
-		soft_attack = 6.68
+		hard_attack = 20.31
+		soft_attack = 24.88
 		armor_value = 20.5
 		ap_attack = 20
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 8.28
-		defense = 13.31
+		breakthrough = 49.76
+		defense = 74.63
 
 		maximum_speed = 3.2
 		reliability = 0.60
@@ -8328,15 +8328,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 2.08
-		soft_attack = 7.14
+		hard_attack = 22.92
+		soft_attack = 28.11
 		armor_value = 41.2
 		ap_attack = 21
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 10.75
-		defense = 15.29
+		breakthrough = 56.22
+		defense = 84.33
 
 		maximum_speed = 5.5
 		reliability = 0.65
@@ -8361,15 +8361,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 2.17
-		soft_attack = 7.76
+		hard_attack = 34.44
+		soft_attack = 40.43
 		armor_value = 40.1
 		ap_attack = 21
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 15.7
-		defense = 23.01
+		breakthrough = 80.86
+		defense = 121.28
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -8397,15 +8397,15 @@ equipments = {
 			jap_medium_equipment_3
 		}
 
-		hard_attack = 10.7
-		soft_attack = 12.79
+		hard_attack = 47.98
+		soft_attack = 47.72
 		armor_value = 33
 		ap_attack = 62
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 15.7
-		defense = 23.01
+		breakthrough = 95.44
+		defense = 143.15
 
 		maximum_speed = 7
 		reliability = 0.72
@@ -8430,15 +8430,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 16.42
-		soft_attack = 19.64
+		hard_attack = 83.46
+		soft_attack = 83.06
 		armor_value = 50
 		ap_attack = 65
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 31.61
-		defense = 36.06
+		breakthrough = 166.12
+		defense = 249.18
 
 		maximum_speed = 8
 		reliability = 0.76
@@ -8473,15 +8473,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 10.04
-		soft_attack = 12.01
+		hard_attack = 37.66
+		soft_attack = 37.44
 		armor_value = 25
 		ap_attack = 62
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 12.15
-		defense = 18.06
+		breakthrough = 74.88
+		defense = 112.32
 
 		maximum_speed = 7
 		reliability = 0.66
@@ -8516,15 +8516,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 36.24
-		soft_attack = 51.23
+		hard_attack = 127.76
+		soft_attack = 152.67
 		armor_value = 80
 		ap_attack = 118
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 49.43
-		defense = 55.02
+		breakthrough = 305.34
+		defense = 458.01
 
 		maximum_speed = 8.4
 		reliability = 0.72
@@ -8562,15 +8562,15 @@ equipments = {
 			jap_medium_equipment_6
 		}
 
-		hard_attack = 18.94
-		soft_attack = 33.89
+		hard_attack = 70.04
+		soft_attack = 86.3
 		armor_value = 50
 		ap_attack = 82
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 28.56
-		defense = 34.34
+		breakthrough = 172.6
+		defense = 258.91
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -8605,15 +8605,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 35.6
-		soft_attack = 51.4
+		hard_attack = 107.21
+		soft_attack = 138.88
 		armor_value = 75
 		ap_attack = 155
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 31.9
-		defense = 42.14
+		breakthrough = 277.77
+		defense = 416.65
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -8654,7 +8654,7 @@ equipments = {
 		armor_value = 125
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 38.3
 		defense = 50.5
@@ -8698,7 +8698,7 @@ equipments = {
 		armor_value = 95
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 46
 		defense = 60.6
@@ -8732,7 +8732,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 205
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 55.2
 		defense = 72.7
@@ -8756,30 +8756,30 @@ equipments = {
 ################################################################################################################# M GER Germany
 	
 	ger_medium_equipment_1 = { #Panzer III A
-		year = 1938
+		year = 1937
 
 		archetype = medium_tank_chassis
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 6.44
-		soft_attack = 14.91
+		hard_attack = 35.4
+		soft_attack = 44.15
 		armor_value = 18
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 17.0
-		defense = 16.83
+		breakthrough = 88.3
+		defense = 132.45
 
 		maximum_speed = 6.4
-		reliability = 0.65
+		reliability = 0.58
 
 		air_attack = 1.2
 		max_strength = 4.8
 		
-		build_cost_ic = 16.14 #12.91
+		build_cost_ic = 12.91
 		resources = {
 			steel = 6
 			tungsten = 1
@@ -8799,18 +8799,18 @@ equipments = {
 			ger_medium_equipment_1
 		}
 
-		hard_attack = 14.73
-		soft_attack = 23.63
+		hard_attack = 77.08
+		soft_attack = 83.8
 		armor_value = 37.4
 		ap_attack = 46.8
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 31.17
-		defense = 32.55
+		breakthrough = 167.6
+		defense = 251.4
 
 		maximum_speed = 7.2
-		reliability = 0.8
+		reliability = 0.70
 
 		air_attack = 1.2
 		max_strength = 4.8
@@ -8836,23 +8836,23 @@ equipments = {
 			ger_medium_equipment_2
 		}
 
-		hard_attack = 21.82
-		soft_attack = 27.89
+		hard_attack = 106.56
+		soft_attack = 111.53
 		armor_value = 72.2
 		ap_attack = 72
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 41.05
-		defense = 45.16
+		breakthrough = 223.06
+		defense = 334.59
 
 		maximum_speed = 7.2
-		reliability = 0.84
+		reliability = 0.72
 
 		air_attack = 1.2
 		max_strength = 4.8
 		
-		build_cost_ic = 16.39
+		build_cost_ic = 15.16
 		resources = {
 			steel = 6
 			tungsten = 1
@@ -8870,6 +8870,9 @@ equipments = {
 		is_convertable = yes
 	}
 
+	
+
+	
 
 	ger_support_tank_equipment_1 = { #Panzer IV A
 		year = 1937
@@ -8879,15 +8882,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 9.62
-		soft_attack = 30.16
+		hard_attack = 48.83
+		soft_attack = 68.93
 		armor_value = 33.3
 		ap_attack = 20
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 21.92
-		defense = 20.6
+		breakthrough = 137.87
+		defense = 206.8
 
 		maximum_speed = 6.2
 		reliability = 0.58	
@@ -8895,7 +8898,7 @@ equipments = {
 		air_attack = 1.2
 		max_strength = 4.8
 		
-		build_cost_ic = 17.15 #13.72
+		build_cost_ic = 13.72
 		resources = {
 			steel = 6
 			tungsten = 1
@@ -8915,15 +8918,15 @@ equipments = {
 			ger_support_tank_equipment_1
 		}
 
-		hard_attack = 9.66
-		soft_attack = 31.36
+		hard_attack = 83.79
+		soft_attack = 107.53
 		armor_value = 53.6
 		ap_attack = 35
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 36.14
-		defense = 38.17
+		breakthrough = 215.07
+		defense = 322.6
 
 		maximum_speed = 7.8
 		reliability = 0.70
@@ -8957,7 +8960,7 @@ equipments = {
 		armor_value = 53.6
 		ap_attack = 48
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 16.2
 		defense = 21.6
@@ -8992,15 +8995,15 @@ equipments = {
 			ger_support_tank_equipment_3
 		}
 
-		hard_attack = 38.82
-		soft_attack = 59.18
+		hard_attack = 122.09
+		soft_attack = 147.96
 		armor_value = 62
 		ap_attack = 92
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 35.11
-		defense = 38.17
+		breakthrough = 295.92
+		defense = 443.88
 
 		maximum_speed = 7.8
 		reliability = 0.77
@@ -9031,18 +9034,18 @@ equipments = {
 			ger_medium_equipment_4
 		}
 
-		hard_attack = 40.47
-		soft_attack = 60.71
+		hard_attack = 133.47
+		soft_attack = 160.65
 		armor_value = 69.8
 		ap_attack = 94
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 40.55
-		defense = 44.43
+		breakthrough = 321.31
+		defense = 481.96
 
 		maximum_speed = 7.8
-		reliability = 0.86
+		reliability = 0.78
 
 		air_attack = 1.2
 		max_strength = 4.8
@@ -9071,15 +9074,15 @@ equipments = {
 			ger_medium_equipment_5
 		}
 
-		hard_attack = 38.7
-		soft_attack = 58.05
+		hard_attack = 142.48
+		soft_attack = 175.35
 		armor_value = 69.8
 		ap_attack = 94
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 40.55
-		defense = 44.43
+		breakthrough = 350.7
+		defense = 526.06
 
 		maximum_speed = 7.8
 		reliability = 0.78
@@ -9109,7 +9112,7 @@ equipments = {
 		armor_value = 90
 		ap_attack = 94
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 17.3
 		defense = 23
@@ -9145,15 +9148,15 @@ equipments = {
 			ger_medium_equipment_3
 		}
 
-		hard_attack = 8.59
-		soft_attack = 27.87
+		hard_attack = 107.57
+		soft_attack = 127.95
 		armor_value = 66.6
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 52.6
-		defense = 56.5
+		breakthrough = 255.9
+		defense = 383.85
 
 		maximum_speed = 7.2
 		reliability = 0.76
@@ -9161,7 +9164,7 @@ equipments = {
 		air_attack = 1.2
 		max_strength = 4.8
 		
-		build_cost_ic = 17.23
+		build_cost_ic = 15.57
 		resources = {
 			steel = 6
 			tungsten = 1
@@ -9186,15 +9189,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 66.3
-		soft_attack = 79.85
+		hard_attack = 215.29
+		soft_attack = 238.95
 		armor_value = 125.1
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 74.84
-		defense = 74.85
+		breakthrough = 477.89
+		defense = 716.84
 
 		maximum_speed = 8.4
 		reliability = 0.52
@@ -9233,15 +9236,15 @@ equipments = {
 			#ger_modern_equipment_1
 		}
 
-		hard_attack = 62.19
-		soft_attack = 74.91
+		hard_attack = 234.93
+		soft_attack = 257.12
 		armor_value = 127.1
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 84.22
-		defense = 89.8
+		breakthrough = 514.23
+		defense = 771.35
 
 		maximum_speed = 8.4
 		reliability = 0.8
@@ -9271,15 +9274,15 @@ equipments = {
 			#ger_modern_equipment_2
 		}
 
-		hard_attack = 63.39
-		soft_attack = 76.35
+		hard_attack = 213.12
+		soft_attack = 235.74
 		armor_value = 127.1
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 74.07
-		defense = 76.68
+		breakthrough = 471.48
+		defense = 707.22
 
 		maximum_speed = 9.2
 		reliability = 0.72
@@ -9319,15 +9322,15 @@ equipments = {
 			ger_modern_equipment_3
 		}
 
-		hard_attack = 95.23
-		soft_attack = 119.18
+		hard_attack = 241.12
+		soft_attack = 296.32
 		armor_value = 127.1
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 74.07
-		defense = 76.68
+		breakthrough = 592.64
+		defense = 888.95
 
 		maximum_speed = 9.2
 		reliability = 0.72
@@ -9363,15 +9366,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 91.76
-		soft_attack = 114.85
+		hard_attack = 274.1
+		soft_attack = 327.29
 		armor_value = 127.1
 		ap_attack = 211
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 92.1
-		defense = 98.95
+		breakthrough = 654.58
+		defense = 981.86
 
 		maximum_speed = 9
 		reliability = 0.72
@@ -9408,15 +9411,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = no
 
-		hard_attack = 98.57
-		soft_attack = 123.36
+		hard_attack = 384.82
+		soft_attack = 448.7
 		armor_value = 220
 		ap_attack = 211
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 152.2
-		defense = 152.23
+		breakthrough = 897.4
+		defense = 1346.1
 
 		maximum_speed = 9.6
 		reliability = 0.77
@@ -9452,15 +9455,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = no
 
-		hard_attack = 113.14
-		soft_attack = 174.61
+		hard_attack = 390.84
+		soft_attack = 519.74
 		armor_value = 220
 		ap_attack = 246
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 163.02
-		defense = 150.95
+		breakthrough = 1039.48
+		defense = 1559.22
 
 		maximum_speed = 9.6
 		reliability = 0.77
@@ -9501,7 +9504,7 @@ equipments = {
 		armor_value = 220
 		ap_attack = 254
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 39.9
 		defense = 53.3
@@ -9545,7 +9548,7 @@ equipments = {
 		armor_value = 225
 		ap_attack = 254
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 127.9
 		defense = 137.5
@@ -9576,15 +9579,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 12.61
-		soft_attack = 24.66
+		hard_attack = 68.05
+		soft_attack = 73.9
 		armor_value = 27.5
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 27.86
-		defense = 27.93
+		breakthrough = 147.8
+		defense = 221.71
 
 		maximum_speed = 7
 		reliability = 0.63
@@ -9620,15 +9623,15 @@ equipments = {
 		priority = 31
 		visual_level = 1
 
-		hard_attack = 10.81
-		soft_attack = 13.11
+		hard_attack = 39.44
+		soft_attack = 33.44
 		armor_value = 21
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 11.93
-		defense = 11.61
+		breakthrough = 66.88
+		defense = 100.31
 
 		maximum_speed = 9.8
 		reliability = 0.64
@@ -9656,15 +9659,15 @@ equipments = {
 			sov_medium_equipment_0
 		}
 
-		hard_attack = 12.22
-		soft_attack = 15.29
+		hard_attack = 55.22
+		soft_attack = 47.17
 		armor_value = 24.4
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 14.18
-		defense = 13.31
+		breakthrough = 94.34
+		defense = 141.5
 
 		maximum_speed = 12.6
 		reliability = 0.66
@@ -9701,15 +9704,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 11.05
-		soft_attack = 25.7
+		hard_attack = 87.02
+		soft_attack = 103.29
 		armor_value = 78.7
 		ap_attack = 68
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 35.43
-		defense = 45.33
+		breakthrough = 206.57
+		defense = 309.86
 
 		maximum_speed = 10
 		reliability = 0.58
@@ -9747,18 +9750,18 @@ equipments = {
 			sov_medium_equipment_3
 		}
 
-		hard_attack = 19.64
-		soft_attack = 39.11
+		hard_attack = 135.42
+		soft_attack = 154.46
 		armor_value = 97.9
 		ap_attack = 75
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 66.8
-		defense = 63.2
+		breakthrough = 308.91
+		defense = 463.37
 
 		maximum_speed = 10
-		reliability = 0.8
+		reliability = 0.72
 
 		air_attack = 0
 		max_strength = 5
@@ -9783,15 +9786,15 @@ equipments = {
 			sov_medium_equipment_3			
 		}
 
-		hard_attack = 13.73
-		soft_attack = 27.33
+		hard_attack = 92.82
+		soft_attack = 106.12
 		armor_value = 85.8
 		ap_attack = 78
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 35.43
-		defense = 45.33
+		breakthrough = 212.24
+		defense = 318.37
 
 		maximum_speed = 10
 		reliability = 0.70
@@ -9818,15 +9821,15 @@ equipments = {
 		is_convertable = yes
 		
 
-		hard_attack = 34.29
-		soft_attack = 65.08
+		hard_attack = 159.62
+		soft_attack = 213.14
 		armor_value = 94.8
 		ap_attack = 95
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 69.72
-		defense = 74.41
+		breakthrough = 426.27
+		defense = 639.41
 
 		maximum_speed = 10.2
 		reliability = 0.77
@@ -9861,15 +9864,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 33.78
-		soft_attack = 64.1
+		hard_attack = 204.58
+		soft_attack = 257.29
 		armor_value = 151.3
 		ap_attack = 116
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 102.01
-		defense = 109.54
+		breakthrough = 514.58
+		defense = 771.87
 
 		maximum_speed = 11.2
 		reliability = 0.72
@@ -9903,7 +9906,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 176
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 31.4
 		defense = 41.7
@@ -9947,7 +9950,7 @@ equipments = {
 		armor_value = 120
 		ap_attack = 98
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 40.1
 		defense = 54.6
@@ -9975,15 +9978,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 72.68
-		soft_attack = 115.15
+		hard_attack = 421.79
+		soft_attack = 516.75
 		armor_value = 217.5
 		ap_attack = 176
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 181.12
-		defense = 194.12
+		breakthrough = 1033.5
+		defense = 1550.24
 
 		maximum_speed = 10.6
 		reliability = 0.77
@@ -10012,15 +10015,15 @@ equipments = {
 			sov_modern_equipment_1
 		}
 
-		hard_attack = 75.92
-		soft_attack = 120.29
+		hard_attack = 440.61
+		soft_attack = 539.81
 		armor_value = 210
 		ap_attack = 215
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 192.44
-		defense = 200.09
+		breakthrough = 1079.62
+		defense = 1619.44
 
 		maximum_speed = 10.8
 		reliability = 0.78
@@ -10061,7 +10064,7 @@ equipments = {
 		armor_value = 225
 		ap_attack = 245
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 45.2
 		defense = 60
@@ -10093,15 +10096,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 8.98
-		soft_attack = 2.82
+		hard_attack = 33.32
+		soft_attack = 20.37
 		armor_value = 21.1
 		ap_attack = 42
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 10.17
-		defense = 11.82
+		breakthrough = 40.74
+		defense = 61.11
 
 		maximum_speed = 8.4
 		reliability = 0.60
@@ -10133,15 +10136,15 @@ equipments = {
 			eng_medium_equipment_1
 		}
 
-		hard_attack = 12.49
-		soft_attack = 2.43
+		hard_attack = 34.63
+		soft_attack = 19.11
 		armor_value = 21.1
 		ap_attack = 44
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 15.4
-		defense = 12.42
+		breakthrough = 38.22
+		defense = 57.33
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -10176,15 +10179,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 11.67
-		soft_attack = 2.27
+		hard_attack = 60.47
+		soft_attack = 44.97
 		armor_value = 35
 		ap_attack = 54
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 32.45
-		defense = 30.05
+		breakthrough = 89.94
+		defense = 134.91
 
 		maximum_speed = 8.8
 		reliability = 0.63
@@ -10219,15 +10222,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 12.4
-		soft_attack = 3.15
+		hard_attack = 51.55
+		soft_attack = 37.01
 		armor_value = 33.1
 		ap_attack = 61
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 27.26
-		defense = 23.76
+		breakthrough = 74.03
+		defense = 111.04
 
 		maximum_speed = 8
 		reliability = 0.64
@@ -10255,15 +10258,15 @@ equipments = {
 			eng_medium_equipment_4
 		}
 
-		hard_attack = 16.13
-		soft_attack = 23.3
+		hard_attack = 52.48
+		soft_attack = 61.91
 		armor_value = 34.5
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 18.4
-		defense = 20.57
+		breakthrough = 123.82
+		defense = 185.73
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -10308,7 +10311,7 @@ equipments = {
 		armor_value = 85
 		ap_attack = 84
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 28.5
 		defense = 38.1
@@ -10346,15 +10349,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 19.51
-		soft_attack = 28.18
+		hard_attack = 110.53
+		soft_attack = 121.94
 		armor_value = 71.4
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 57.3
-		defense = 59.07
+		breakthrough = 243.88
+		defense = 365.83
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -10379,15 +10382,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 20.77
-		soft_attack = 30.0
+		hard_attack = 102.11
+		soft_attack = 114.26
 		armor_value = 69.2
 		ap_attack = 96
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 52.39
-		defense = 50.74
+		breakthrough = 228.52
+		defense = 342.78
 
 		maximum_speed = 11.6
 		reliability = 0.72
@@ -10422,15 +10425,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 73.75
-		soft_attack = 61.93
+		hard_attack = 221.59
+		soft_attack = 193.73
 		armor_value = 83.6
 		ap_attack = 131
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 68.8
-		defense = 62.82
+		breakthrough = 387.46
+		defense = 581.19
 
 		maximum_speed = 9.4
 		reliability = 0.77
@@ -10465,15 +10468,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 51.39
-		soft_attack = 63.41
+		hard_attack = 183.66
+		soft_attack = 194.46
 		armor_value = 132.6
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 83.68
-		defense = 89.91
+		breakthrough = 388.92
+		defense = 583.37
 
 		maximum_speed = 7.6
 		reliability = 0.82
@@ -10499,15 +10502,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 100.69
-		soft_attack = 89.09
+		hard_attack = 271.43
+		soft_attack = 265.59
 		armor_value = 128.8
 		ap_attack = 215
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 87.15
-		defense = 96.65
+		breakthrough = 531.17
+		defense = 796.76
 
 		maximum_speed = 8.8
 		reliability = 0.82
@@ -10538,7 +10541,7 @@ equipments = {
 		armor_value = 167.2
 		ap_attack = 215
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 120.6
 		defense = 129.5
@@ -10572,7 +10575,7 @@ equipments = {
 		armor_value = 180
 		ap_attack = 252
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 41
 		defense = 54.8
@@ -10602,15 +10605,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 12.5
-		soft_attack = 15.21
+		hard_attack = 57.12
+		soft_attack = 54.49
 		armor_value = 31
 		ap_attack = 64
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 23.68
-		defense = 23.28
+		breakthrough = 108.99
+		defense = 163.48
 
 		maximum_speed = 7.8
 		reliability = 0.66
@@ -10645,15 +10648,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 26.18
-		soft_attack = 42.15
+		hard_attack = 88.91
+		soft_attack = 118.46
 		armor_value = 59.3
 		ap_attack = 73
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 35.05
-		defense = 42.19
+		breakthrough = 236.92
+		defense = 355.37
 
 		maximum_speed = 7.6
 		reliability = 0.7
@@ -10688,15 +10691,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 26.18
-		soft_attack = 43.0
+		hard_attack = 156.5
+		soft_attack = 178.11
 		armor_value = 85.5
 		ap_attack = 73
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 62.48
-		defense = 68.41
+		breakthrough = 356.21
+		defense = 534.32
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -10729,7 +10732,7 @@ equipments = {
 		armor_value = 85
 		ap_attack = 84
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 23
 		defense = 38.3
@@ -10761,15 +10764,15 @@ equipments = {
 			usa_medium_equipment_4
 		}
 
-		hard_attack = 46.52
-		soft_attack = 62.02
+		hard_attack = 175.85
+		soft_attack = 202.47
 		armor_value = 94.26
 		ap_attack = 116
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 63.17
-		defense = 69.17
+		breakthrough = 404.95
+		defense = 607.42
 
 		maximum_speed = 8.8
 		reliability = 0.77
@@ -10804,15 +10807,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 51.8
-		soft_attack = 83.55
+		hard_attack = 209.2
+		soft_attack = 253.24
 		armor_value = 132.82
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 79.31
-		defense = 91.42
+		breakthrough = 506.47
+		defense = 759.71
 
 		maximum_speed = 8
 		reliability = 0.70
@@ -10853,7 +10856,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 95.2
 		defense = 109.7
@@ -10890,7 +10893,7 @@ equipments = {
 		armor_value = 160
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 95.2
 		defense = 109.7
@@ -10934,7 +10937,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 192
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 114.2
 		defense = 131.6
@@ -10978,7 +10981,7 @@ equipments = {
 		armor_value = 245
 		ap_attack = 248
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 125.6
 		defense = 144.8
@@ -11022,7 +11025,7 @@ equipments = {
 		armor_value = 160
 		ap_attack = 192
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 41.4
 		defense = 47
@@ -11066,7 +11069,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 248
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 50.6
 		defense = 57.8
@@ -11115,7 +11118,7 @@ equipments = {
 		defense = 7
 		breakthrough = 40
 		armor_value = 40
-		hardness = 0.8
+		#hardness = 0.8
 
 		#Offensive Abilities
 		soft_attack = 18
@@ -11148,7 +11151,7 @@ equipments = {
 		defense = 9
 		breakthrough = 52
 		armor_value = 60
-		hardness = 0.9
+		#hardness = 0.9
 
 		#Offensive Abilities
 		soft_attack = 20
@@ -11260,7 +11263,7 @@ equipments = {
 		#Defensive Abilities
 		defense = 10
 		breakthrough = 64
-		hardness = 0.95
+		#hardness = 0.95
 		armor_value = 110
 
 		#Offensive Abilities
@@ -11286,15 +11289,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.13
-		soft_attack = 10.47
+		hard_attack = 8.2
+		soft_attack = 21.58
 		armor_value = 30
 		ap_attack = 23
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 6.02
-		defense = 6.01
+		breakthrough = 43.15
+		defense = 64.73
 
 		maximum_speed = 8
 		reliability = 0.82
@@ -11327,7 +11330,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 32
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 12.5
 		defense = 16.6
@@ -11358,15 +11361,15 @@ equipments = {
 			hun_medium_spg_equipment_1
 		}
 
-		hard_attack = 0.2
-		soft_attack = 25.07
+		hard_attack = 45.91
+		soft_attack = 82.8
 		armor_value = 52
 		ap_attack = 32
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 33.55
-		defense = 38.67
+		breakthrough = 165.6
+		defense = 248.4
 
 		maximum_speed = 8
 		reliability = 0.76
@@ -11396,7 +11399,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 102
 
-		hardness = 0.88
+		#hardness = 0.88
 
 		breakthrough = 8.1
 		defense = 9.4
@@ -11428,15 +11431,15 @@ equipments = {
 			fra_medium_equipment_2
 		}
 
-		hard_attack = 2.43
-		soft_attack = 5.04
+		hard_attack = 23.0
+		soft_attack = 24.18
 		armor_value = 39.9
 		ap_attack = 25
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 11.77
-		defense = 20.52
+		breakthrough = 48.37
+		defense = 72.55
 
 		maximum_speed = 6.6
 		reliability = 0.65
@@ -11478,7 +11481,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 25
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 3.6
 		defense = 5.4
@@ -11515,7 +11518,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 25
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 4.1
 		defense = 6
@@ -11560,7 +11563,7 @@ equipments = {
 		armor_value = 16
 		ap_attack = 25
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 3.9
 		defense = 5.7
@@ -11596,7 +11599,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 25
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 4.1
 		defense = 6
@@ -11633,7 +11636,7 @@ equipments = {
 		armor_value = 8
 		ap_attack = 10
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 0.8
 		defense = 1.6
@@ -11674,15 +11677,15 @@ equipments = {
 			ita_medium_equipment_3
 		}
 
-		hard_attack = 1.73
-		soft_attack = 6.09
+		hard_attack = 19.23
+		soft_attack = 24.56
 		armor_value = 53.7
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 11.03
-		defense = 17.85
+		breakthrough = 49.11
+		defense = 73.67
 
 		maximum_speed = 6.2
 		reliability = 0.63
@@ -11725,7 +11728,7 @@ equipments = {
 		armor_value = 5
 		ap_attack = 32
 
-		hardness = 0.28
+		#hardness = 0.28
 
 		breakthrough = 1.8
 		defense = 3.3
@@ -11770,7 +11773,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 35
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 3.4
 		defense = 7
@@ -11816,7 +11819,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 42
 
-		hardness = 0.8
+		#hardness = 0.8
 
 		breakthrough = 3.6
 		defense = 7.2
@@ -11850,15 +11853,15 @@ equipments = {
 			jap_medium_equipment_3
 		}
 
-		hard_attack = 3.81
-		soft_attack = 14.08
+		hard_attack = 32.16
+		soft_attack = 40.58
 		armor_value = 15
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 18.63
-		defense = 20.61
+		breakthrough = 81.17
+		defense = 121.75
 
 		maximum_speed = 7.6
 		reliability = 0.70
@@ -11887,15 +11890,15 @@ equipments = {
 			jap_medium_equipment_6
 		}
 
-		hard_attack = 14.25
-		soft_attack = 25.5
+		hard_attack = 50.69
+		soft_attack = 62.92
 		armor_value = 50
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 20.37
-		defense = 21.74
+		breakthrough = 125.84
+		defense = 188.76
 
 		maximum_speed = 7.6
 		reliability = 0.76
@@ -11937,15 +11940,15 @@ equipments = {
 			jap_medium_equipment_4
 		}
 
-		hard_attack = 1.87
-		soft_attack = 7.22
+		hard_attack = 7.05
+		soft_attack = 13.69
 		armor_value = 25
 		ap_attack = 16
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 4.57
-		defense = 6.35
+		breakthrough = 27.38
+		defense = 41.07
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -11985,15 +11988,15 @@ equipments = {
 			jap_medium_equipment_6
 		}
 
-		hard_attack = 2.7
-		soft_attack = 15.05
+		hard_attack = 24.01
+		soft_attack = 38.97
 		armor_value = 25
 		ap_attack = 6
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 12.56
-		defense = 15.94
+		breakthrough = 77.93
+		defense = 116.9
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -12031,15 +12034,15 @@ equipments = {
 			jap_medium_equipment_8
 		}
 
-		hard_attack = 0.8
-		soft_attack = 6.01
+		hard_attack = 5.22
+		soft_attack = 10.81
 		armor_value = 25
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 4.17
-		defense = 5.37
+		breakthrough = 21.62
+		defense = 32.43
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -12082,7 +12085,7 @@ equipments = {
 		armor_value = 25
 		ap_attack = 21
 
-		hardness = 0.66
+		#hardness = 0.66
 
 		breakthrough = 4
 		defense = 4.3
@@ -12127,7 +12130,7 @@ equipments = {
 		armor_value = 55
 		ap_attack = 24
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 3.9
 		defense = 7.2
@@ -12173,7 +12176,7 @@ equipments = {
 		armor_value = 70
 		ap_attack = 35
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 3.9
 		defense = 7.2
@@ -12207,15 +12210,15 @@ equipments = {
 			ger_medium_equipment_2
 		}
 
-		hard_attack = 3.95
-		soft_attack = 12.72
+		hard_attack = 40.75
+		soft_attack = 48.82
 		armor_value = 60.8
 		ap_attack = 16
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 28.5
-		defense = 28.65
+		breakthrough = 97.63
+		defense = 146.45
 
 		maximum_speed = 7
 		reliability = 0.65
@@ -12246,15 +12249,15 @@ equipments = {
 			ger_assault_artillery_equipment_2
 		}
 
-		hard_attack = 2.55
-		soft_attack = 15.79
+		hard_attack = 25.93
+		soft_attack = 37.3
 		armor_value = 78
 		ap_attack = 80
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 28.5
-		defense = 30.86
+		breakthrough = 74.61
+		defense = 111.91
 
 		maximum_speed = 6.0
 		reliability = 0.60
@@ -12288,15 +12291,15 @@ equipments = {
 			ger_support_tank_equipment_4
 		}
 
-		hard_attack = 5.09
-		soft_attack = 20.77
+		hard_attack = 50.77
+		soft_attack = 67.36
 		armor_value = 88.4
 		ap_attack = 52
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 37.31
-		defense = 40.72
+		breakthrough = 134.73
+		defense = 202.09
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -12336,15 +12339,15 @@ equipments = {
 			ger_medium_equipment_6
 		}
 
-		hard_attack = 5.06
-		soft_attack = 15.98
+		hard_attack = 49.68
+		soft_attack = 58.95
 		armor_value = 133.2
 		ap_attack = 92
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 33.89
-		defense = 37.89
+		breakthrough = 117.91
+		defense = 176.86
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -12377,15 +12380,15 @@ equipments = {
 			ger_support_tank_equipment_2
 		}
 
-		hard_attack = 0.0
-		soft_attack = 14.49
+		hard_attack = 4.21
+		soft_attack = 22.18
 		armor_value = 30
 		ap_attack = 20
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 5.51
-		defense = 5.75
+		breakthrough = 44.36
+		defense = 66.54
 
 		maximum_speed = 7.8
 		reliability = 0.76
@@ -12424,15 +12427,15 @@ equipments = {
 			ger_modern_equipment_2
 		}
 
-		hard_attack = 0.12
-		soft_attack = 25.57
+		hard_attack = 16.63
+		soft_attack = 51.44
 		armor_value = 50
 		ap_attack = 25
 
-		hardness = 0.68
+		#hardness = 0
 
-		breakthrough = 13.44
-		defense = 13.92
+		breakthrough = 102.89
+		defense = 154.33
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -12468,7 +12471,7 @@ equipments = {
 		armor_value = 65
 		ap_attack = 28
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 3.6
 		defense = 7
@@ -12515,7 +12518,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 40
 
-		hardness = 0.92
+		#hardness = 0.92
 
 		breakthrough = 3.9
 		defense = 6.7
@@ -12550,15 +12553,15 @@ equipments = {
 			sov_medium_equipment_0
 		}
 
-		hard_attack = 0.0
-		soft_attack = 8.92
+		hard_attack = 4.86
+		soft_attack = 13.19
 		armor_value = 21.6
 		ap_attack = 5
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 8.22
-		defense = 7.98
+		breakthrough = 26.39
+		defense = 39.58
 
 		maximum_speed = 9.8
 		reliability = 0.66
@@ -12603,7 +12606,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 172
 
-		hardness = 0.44
+		#hardness = 0.44
 
 		breakthrough = 13.7
 		defense = 15.8
@@ -12645,15 +12648,15 @@ equipments = {
 			sov_light_equipment_5
 		}
 
-		hard_attack = 7.08
-		soft_attack = 7.86
+		hard_attack = 33.38
+		soft_attack = 29.36
 		armor_value = 36.1
 		ap_attack = 76
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 11.93
-		defense = 13.97
+		breakthrough = 58.71
+		defense = 88.07
 
 		maximum_speed = 8.6
 		reliability = 0.63
@@ -12698,7 +12701,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 24
 
-		hardness = 0.98
+		#hardness = 0.98
 
 		breakthrough = 4.1
 		defense = 7.5
@@ -12731,15 +12734,15 @@ equipments = {
 			eng_medium_equipment_4
 		}
 
-		hard_attack = 0.68
-		soft_attack = 12.69
+		hard_attack = 20.16
+		soft_attack = 34.19
 		armor_value = 40
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 16.36
-		defense = 14.25
+		breakthrough = 68.37
+		defense = 102.56
 
 		maximum_speed = 8
 		reliability = 0.64
@@ -12764,15 +12767,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 4.23
-		soft_attack = 35.71
+		hard_attack = 46.8
+		soft_attack = 97.66
 		armor_value = 70
 		ap_attack = 52
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 31.43
-		defense = 30.44
+		breakthrough = 195.31
+		defense = 292.97
 
 		maximum_speed = 11.6
 		reliability = 0.72
@@ -12804,7 +12807,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 23
 
-		hardness = 0.52
+		#hardness = 0.52
 
 		breakthrough = 1.2
 		defense = 2.6
@@ -12850,7 +12853,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 23
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 1.4
 		defense = 2.7
@@ -12898,7 +12901,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 25
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 2.7
 		defense = 5.1
@@ -12943,7 +12946,7 @@ equipments = {
 		armor_value = 35
 		ap_attack = 25
 
-		hardness = 0.88
+		#hardness = 0.88
 
 		breakthrough = 3.6
 		defense = 7
@@ -12976,15 +12979,15 @@ equipments = {
 			usa_medium_equipment_2
 		}
 
-		hard_attack = 0.0
-		soft_attack = 16.71
+		hard_attack = 6.1
+		soft_attack = 27.73
 		armor_value = 30
 		ap_attack = 18
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 6.48
-		defense = 5.75
+		breakthrough = 55.45
+		defense = 83.18
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -13021,15 +13024,15 @@ equipments = {
 			usa_medium_equipment_3
 		}
 
-		hard_attack = 0.0
-		soft_attack = 18.4
+		hard_attack = 5.59
+		soft_attack = 30.44
 		armor_value = 20
 		ap_attack = 22
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 5.58
-		defense = 6.18
+		breakthrough = 60.87
+		defense = 91.31
 
 		maximum_speed = 7.2
 		reliability = 0.77
@@ -13067,15 +13070,15 @@ equipments = {
 			usa_medium_equipment_4
 		}
 
-		hard_attack = 7.49
-		soft_attack = 32.86
+		hard_attack = 69.0
+		soft_attack = 105.63
 		armor_value = 94.3
 		ap_attack = 53
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 34.45
-		defense = 37.72
+		breakthrough = 211.27
+		defense = 316.9
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -13113,15 +13116,15 @@ equipments = {
 			usa_medium_equipment_5
 		}
 
-		hard_attack = 0.0
-		soft_attack = 16.3
+		hard_attack = 3.47
+		soft_attack = 25.48
 		armor_value = 30
 		ap_attack = 25
 
-		hardness = 0.25
+		#hardness = 0
 
-		breakthrough = 2.51
-		defense = 3.27
+		breakthrough = 50.96
+		defense = 76.44
 
 		maximum_speed = 7
 		reliability = 0.82
@@ -13164,7 +13167,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 42
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 3.3
 		defense = 5.6
@@ -13211,7 +13214,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 25
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 3.9
 		defense = 7.7
@@ -13250,7 +13253,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 42
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 4.7
 		defense = 8.9
@@ -13328,15 +13331,15 @@ equipments = {
 		priority = 20
 		visual_level = 0
 
-		hard_attack = 25.02
-		soft_attack = 37.82
+		hard_attack = 115.93
+		soft_attack = 134.02
 		armor_value = 75
 		ap_attack = 106
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 55.91
-		defense = 64.45
+		breakthrough = 268.05
+		defense = 402.07
 
 		maximum_speed = 8
 		reliability = 0.72
@@ -13374,7 +13377,7 @@ equipments = {
 		armor_value = 120
 		ap_attack = 158
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 5.8
 		defense = 18.2
@@ -13408,7 +13411,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 52
 
-		hardness = 0.76
+		#hardness = 0.76
 
 		breakthrough = 5
 		defense = 5.6
@@ -13450,7 +13453,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 118
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 4.9
 		defense = 5.3
@@ -13493,7 +13496,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 288
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 9.1
 		defense = 26.9
@@ -13531,7 +13534,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 74
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 3.4
 		defense = 9.6
@@ -13575,7 +13578,7 @@ equipments = {
 		armor_value = 170
 		ap_attack = 205
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 7.2
 		defense = 17.3
@@ -13613,7 +13616,7 @@ equipments = {
 		armor_value = 240
 		ap_attack = 258
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 9.1
 		defense = 21.1
@@ -13658,7 +13661,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 205
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 17.6
 		defense = 20.4
@@ -13691,15 +13694,15 @@ equipments = {
 			ita_medium_equipment_3
 		}
 
-		hard_attack = 4.6
-		soft_attack = 5.39
+		hard_attack = 24.54
+		soft_attack = 24.14
 		armor_value = 89.1
 		ap_attack = 72
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 13.82
-		defense = 19.11
+		breakthrough = 48.28
+		defense = 72.41
 
 		maximum_speed = 7.4
 		reliability = 0.8
@@ -13727,15 +13730,15 @@ equipments = {
 			ita_medium_equipment_3
 		}
 
-		hard_attack = 3.07
-		soft_attack = 2.79
+		hard_attack = 7.31
+		soft_attack = 6.63
 		armor_value = 89.1
 		ap_attack = 92
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 10.72
-		defense = 14.6
+		breakthrough = 13.26
+		defense = 19.89
 
 		maximum_speed = 6.8
 		reliability = 0.64
@@ -13779,7 +13782,7 @@ equipments = {
 		armor_value = 51.4
 		ap_attack = 142
 
-		hardness = 0.48
+		#hardness = 0.48
 
 		breakthrough = 2.8
 		defense = 2.9
@@ -13813,7 +13816,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 152
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 4.8
 		defense = 12.5
@@ -13859,7 +13862,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 212
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 6.3
 		defense = 15.4
@@ -13894,15 +13897,15 @@ equipments = {
 			jap_medium_equipment_4
 		}
 
-		hard_attack = 6.16
-		soft_attack = 5.49
+		hard_attack = 16.97
+		soft_attack = 14.72
 		armor_value = 25
 		ap_attack = 82
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 9.14
-		defense = 12.7
+		breakthrough = 29.43
+		defense = 44.15
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -13943,15 +13946,15 @@ equipments = {
 			jap_medium_equipment_6
 		}
 
-		hard_attack = 20.55
-		soft_attack = 18.31
+		hard_attack = 65.83
+		soft_attack = 58.88
 		armor_value = 25
 		ap_attack = 82
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 20.11
-		defense = 25.01
+		breakthrough = 117.77
+		defense = 176.65
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -13989,15 +13992,15 @@ equipments = {
 			jap_medium_equipment_7
 		}
 
-		hard_attack = 0.0
-		soft_attack = 0.0
+		hard_attack = 18.72
+		soft_attack = 18.72
 		armor_value = 75
 		ap_attack = 185
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 10.86
-		defense = 12.56
+		breakthrough = 37.44
+		defense = 56.16
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -14034,15 +14037,15 @@ equipments = {
 			jap_medium_equipment_8
 		}
 
-		hard_attack = 15.65
-		soft_attack = 11.0
+		hard_attack = 26.55
+		soft_attack = 20.71
 		armor_value = 10
 		ap_attack = 124
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 5.17
-		defense = 6.22
+		breakthrough = 41.42
+		defense = 62.14
 
 		maximum_speed = 7.4
 		reliability = 0.76
@@ -14085,7 +14088,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 185
 
-		hardness = 0.88
+		#hardness = 0.88
 
 		breakthrough = 10
 		defense = 11.3
@@ -14131,7 +14134,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 162
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 6.7
 		defense = 16.3
@@ -14167,15 +14170,15 @@ equipments = {
 			ger_support_tank_equipment_2
 		}
 
-		hard_attack = 35.22
-		soft_attack = 22.58
+		hard_attack = 49.67
+		soft_attack = 39.43
 		armor_value = 30.6
 		ap_attack = 211
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 9.58
-		defense = 10.13
+		breakthrough = 78.86
+		defense = 118.28
 
 		maximum_speed = 5
 		reliability = 0.76
@@ -14207,15 +14210,15 @@ equipments = {
 			ger_assault_artillery_equipment_3
 		}
 
-		hard_attack = 14.51
-		soft_attack = 10.66
+		hard_attack = 59.32
+		soft_attack = 53.52
 		armor_value = 79.3
 		ap_attack = 86
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 35.73
-		defense = 38.99
+		breakthrough = 107.04
+		defense = 160.56
 
 		maximum_speed = 7.2
 		reliability = 0.72
@@ -14251,7 +14254,7 @@ equipments = {
 		armor_value = 88.4
 		ap_attack = 92
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 35.7
 		defense = 39
@@ -14289,15 +14292,15 @@ equipments = {
 			ger_support_tank_equipment_4
 		}
 
-		hard_attack = 16.82
-		soft_attack = 12.62
+		hard_attack = 68.45
+		soft_attack = 61.66
 		armor_value = 82.2
 		ap_attack = 92
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 35.3
-		defense = 37.93
+		breakthrough = 123.31
+		defense = 184.97
 
 		maximum_speed = 7.8
 		reliability = 0.76
@@ -14337,15 +14340,15 @@ equipments = {
 			ger_medium_equipment_4
 		}
 
-		hard_attack = 16.72
-		soft_attack = 12.55
+		hard_attack = 67.78
+		soft_attack = 60.77
 		armor_value = 108.9
 		ap_attack = 152
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 33.18
-		defense = 36.36
+		breakthrough = 121.55
+		defense = 182.32
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -14389,7 +14392,7 @@ equipments = {
 		armor_value = 110
 		ap_attack = 188
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 10.2
 		defense = 11.7
@@ -14431,15 +14434,15 @@ equipments = {
 			#ger_modern_equipment_2
 		}
 
-		hard_attack = 57.14
-		soft_attack = 35.75
+		hard_attack = 136.97
+		soft_attack = 120.42
 		armor_value = 134.1
 		ap_attack = 211
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 42.0
-		defense = 43.48
+		breakthrough = 240.85
+		defense = 361.27
 
 		maximum_speed = 8.2
 		reliability = 0.66
@@ -14479,15 +14482,15 @@ equipments = {
 			ger_modern_equipment_4
 		}
 
-		hard_attack = 37.32
-		soft_attack = 35.47
+		hard_attack = 102.31
+		soft_attack = 106.54
 		armor_value = 200
 		ap_attack = 245
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 43.09
-		defense = 50.33
+		breakthrough = 213.08
+		defense = 319.62
 
 		maximum_speed = 7.5
 		reliability = 0.76
@@ -14528,15 +14531,15 @@ equipments = {
 			ger_modern_equipment_4
 		}
 
-		hard_attack = 43.49
-		soft_attack = 41.34
+		hard_attack = 68.52
+		soft_attack = 73.72
 		armor_value = 60
 		ap_attack = 246
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 14.79
-		defense = 13.89
+		breakthrough = 147.43
+		defense = 221.15
 
 		maximum_speed = 9
 		reliability = 0.8
@@ -14582,7 +14585,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 245
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 36.2
 		defense = 38.17
@@ -14626,7 +14629,7 @@ equipments = {
 		armor_value = 230
 		ap_attack = 246
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 21
 		defense = 24.3
@@ -14664,7 +14667,7 @@ equipments = {
 		armor_value = 20
 		ap_attack = 78
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 2.0
 		defense = 4.0
@@ -14707,15 +14710,15 @@ equipments = {
 			sov_medium_equipment_5
 		}
 
-		hard_attack = 16.12
-		soft_attack = 15.1
+		hard_attack = 58.41
+		soft_attack = 56.61
 		armor_value = 81.7
 		ap_attack = 95
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 29.53
-		defense = 30.15
+		breakthrough = 113.22
+		defense = 169.83
 
 		maximum_speed = 10.6
 		reliability = 0.77
@@ -14747,15 +14750,15 @@ equipments = {
 			sov_medium_td_equipment_3
 		}
 
-		hard_attack = 26.67
-		soft_attack = 21.9
+		hard_attack = 76.34
+		soft_attack = 72.84
 		armor_value = 106.4
 		ap_attack = 152
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 36.88
-		defense = 39.05
+		breakthrough = 145.67
+		defense = 218.51
 
 		maximum_speed = 10
 		reliability = 0.77
@@ -14799,7 +14802,7 @@ equipments = {
 		armor_value = 125
 		ap_attack = 172
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 11.9
 		defense = 13.7
@@ -14841,15 +14844,15 @@ equipments = {
 			sov_modern_equipment_2
 		}
 
-		hard_attack = 31.11
-		soft_attack = 59.27
+		hard_attack = 150.96
+		soft_attack = 207.24
 		armor_value = 172.3
 		ap_attack = 215
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 83.3
-		defense = 89.28
+		breakthrough = 414.49
+		defense = 621.73
 
 		maximum_speed = 11.0
 		reliability = 0.72
@@ -14883,15 +14886,15 @@ equipments = {
 			eng_medium_equipment_9
 		}
 
-		hard_attack = 34.11
-		soft_attack = 20.04
+		hard_attack = 111.32
+		soft_attack = 95.12
 		armor_value = 78
 		ap_attack = 156
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 34.48
-		defense = 39.74
+		breakthrough = 190.24
+		defense = 285.37
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -14934,7 +14937,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 156
 
-		hardness = 0.83
+		#hardness = 0.83
 
 		breakthrough = 6.0
 		defense = 16.0
@@ -14966,15 +14969,15 @@ equipments = {
 			eng_medium_equipment_7
 		}
 
-		hard_attack = 33.46
-		soft_attack = 21.28
+		hard_attack = 103.52
+		soft_attack = 83.57
 		armor_value = 78.7
 		ap_attack = 156
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 37.67
-		defense = 34.4
+		breakthrough = 167.15
+		defense = 250.72
 
 		maximum_speed = 10
 		reliability = 0.72
@@ -15006,7 +15009,7 @@ equipments = {
 		armor_value = 50.8
 		ap_attack = 225
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 7.9
 		defense = 8.9
@@ -15050,15 +15053,15 @@ equipments = {
 			eng_modern_equipment_3
 		}
 
-		hard_attack = 112.76
-		soft_attack = 63.01
+		hard_attack = 198.18
+		soft_attack = 167.35
 		armor_value = 138.1
 		ap_attack = 262
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 43.15
-		defense = 48.26
+		breakthrough = 334.69
+		defense = 502.04
 
 		maximum_speed = 10.6
 		reliability = 0.78
@@ -15093,7 +15096,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 73
 
-		hardness = 0.68
+		#hardness = 0.68
 
 		breakthrough = 4.3
 		defense = 11.5
@@ -15134,15 +15137,15 @@ equipments = {
 			usa_medium_equipment_3
 		}
 
-		hard_attack = 22.64
-		soft_attack = 15.39
+		hard_attack = 63.49
+		soft_attack = 52.94
 		armor_value = 60.5
 		ap_attack = 116
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 20.3
-		defense = 21.46
+		breakthrough = 105.88
+		defense = 158.82
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -15180,15 +15183,15 @@ equipments = {
 			
 		}
 
-		hard_attack = 32.63
-		soft_attack = 22.18		
+		hard_attack = 83.0
+		soft_attack = 76.71
 		armor_value = 22.2
 		ap_attack = 128
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 11.22
-		defense = 9.0
+		breakthrough = 153.42
+		defense = 230.13
 
 		maximum_speed = 12.6
 		reliability = 0.77
@@ -15196,8 +15199,7 @@ equipments = {
 		air_attack = 0.5
 		max_strength = 3
 
-
-		build_cost_ic = 12.89
+		build_cost_ic = 22.22
 		resources = {
 			steel = 6
 			tungsten = 2
@@ -15227,18 +15229,15 @@ equipments = {
 			usa_medium_equipment_5
 		}
 
-
-		
-		hard_attack = 30.8
-		soft_attack = 25.22
+		hard_attack = 51.41
+		soft_attack = 40.39
 		armor_value = 75
 		ap_attack = 162
 
-		hardness = 0.5
+		#hardness = 0
 
-
-		breakthrough = 28.06
-		defense = 28.93
+		breakthrough = 80.78
+		defense = 121.17
 
 		maximum_speed = 8.4
 		reliability = 0.77
@@ -15246,7 +15245,7 @@ equipments = {
 		air_attack = 0.5
 		max_strength = 4
 
-		build_cost_ic = 22.22
+		build_cost_ic = 12.89
 		resources = {
 			steel = 6
 			tungsten = 3
@@ -15281,7 +15280,7 @@ equipments = {
 		armor_value = 140
 		ap_attack = 264
 
-		hardness = 0.92
+		#hardness = 0.92
 
 		breakthrough = 15.7
 		defense = 41.3
@@ -15373,7 +15372,7 @@ equipments = {
 		armor_value = 10
 		ap_attack = 45
 
-		hardness = 0.66
+		#hardness = 0.66
 
 		breakthrough = 1.3
 		defense = 1.7
@@ -15415,7 +15414,7 @@ equipments = {
 		armor_value = 15
 		ap_attack = 45
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 1.3
 		defense = 1.7
@@ -15449,15 +15448,15 @@ equipments = {
 			ita_medium_equipment_3
 		}
 
-		hard_attack = 4.02
-		soft_attack = 2.92
+		hard_attack = 19.53
+		soft_attack = 19.2
 		armor_value = 42.2
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 7.95
-		defense = 11.03
+		breakthrough = 38.4
+		defense = 57.6
 
 		maximum_speed = 6
 		reliability = 0.66
@@ -15499,7 +15498,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 12
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 1.1
 		defense = 1.5
@@ -15544,7 +15543,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 35
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 1.3
 		defense = 1.7
@@ -15590,7 +15589,7 @@ equipments = {
 		armor_value = 55
 		ap_attack = 35
 
-		hardness = 0.8
+		#hardness = 0.8
 
 		breakthrough = 1.3
 		defense = 1.7
@@ -15622,15 +15621,15 @@ equipments = {
 			jap_medium_equipment_8
 		}
 
-		hard_attack = 5.42
-		soft_attack = 12.45
+		hard_attack = 39.34
+		soft_attack = 50.8
 		armor_value = 40
 		ap_attack = 22
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 18.97
-		defense = 21.64
+		breakthrough = 101.6
+		defense = 152.39
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -15672,7 +15671,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 35
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 2.1
 		defense = 2.8
@@ -15707,15 +15706,15 @@ equipments = {
 			ger_medium_equipment_4
 		}
 
-		hard_attack = 4.58
-		soft_attack = 10.51
+		hard_attack = 31.87
+		soft_attack = 38.6
 		armor_value = 24
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 14.7
-		defense = 16.11
+		breakthrough = 77.19
+		defense = 115.79
 
 		maximum_speed = 7
 		reliability = 0.72
@@ -15746,15 +15745,15 @@ equipments = {
 			ger_medium_equipment_4
 		}
 
-		hard_attack = 4.62
-		soft_attack = 10.6
+		hard_attack = 44.77
+		soft_attack = 51.56
 		armor_value = 24
 		ap_attack = 12
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 19.16
-		defense = 21.43
+		breakthrough = 103.12
+		defense = 154.67
 
 		maximum_speed = 7.6
 		reliability = 0.72
@@ -15790,7 +15789,7 @@ equipments = {
 		armor_value = 47.6
 		ap_attack = 45
 
-		hardness = 0.72
+		#hardness = 0.72
 
 		breakthrough = 1.1
 		defense = 1.5
@@ -15832,15 +15831,15 @@ equipments = {
 			ger_medium_equipment_4
 		}
 
-		hard_attack = 6.15
-		soft_attack = 9.88
+		hard_attack = 43.64
+		soft_attack = 49.65
 		armor_value = 60
 		ap_attack = 45
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 21.66
-		defense = 22.84
+		breakthrough = 99.29
+		defense = 148.94
 
 		maximum_speed = 7.8
 		reliability = 0.72
@@ -15884,7 +15883,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 45
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 2.9
 		defense = 1.7
@@ -15926,15 +15925,15 @@ equipments = {
 			ger_modern_equipment_2
 		}
 
-		hard_attack = 8.58
-		soft_attack = 19.49
+		hard_attack = 75.11
+		soft_attack = 91.64
 		armor_value = 90
 		ap_attack = 45
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 35.46
-		defense = 34.34
+		breakthrough = 183.28
+		defense = 274.92
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -15978,7 +15977,7 @@ equipments = {
 		armor_value = 80
 		ap_attack = 75
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 1.3
 		defense = 1.7
@@ -16012,15 +16011,15 @@ equipments = {
 			sov_modern_equipment_1
 		}
 
-		hard_attack = 24.7
-		soft_attack = 25.17
+		hard_attack = 75.84
+		soft_attack = 68.66
 		armor_value = 22.6
 		ap_attack = 98
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 19.02
-		defense = 16.01
+		breakthrough = 137.33
+		defense = 205.99
 
 		maximum_speed = 11
 		reliability = 0.77
@@ -16050,15 +16049,15 @@ equipments = {
 			eng_medium_equipment_5
 		}
 
-		hard_attack = 8.06
-		soft_attack = 13.47
+		hard_attack = 34.76
+		soft_attack = 40.28
 		armor_value = 36.4
 		ap_attack = 28
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 11.71
-		defense = 12.3
+		breakthrough = 80.55
+		defense = 120.83
 
 		maximum_speed = 8
 		reliability = 0.64
@@ -16086,15 +16085,15 @@ equipments = {
 			eng_medium_equipment_5
 		}
 
-		hard_attack = 6.26
-		soft_attack = 6.49
+		hard_attack = 46.67
+		soft_attack = 47.58
 		armor_value = 36.3
 		ap_attack = 16
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 22.85
-		defense = 21.47
+		breakthrough = 95.16
+		defense = 142.75
 
 		maximum_speed = 8.4
 		reliability = 0.66
@@ -16131,15 +16130,15 @@ equipments = {
 			eng_medium_equipment_7
 		}
 
-		hard_attack = 4.52
-		soft_attack = 4.69
+		hard_attack = 46.02
+		soft_attack = 46.68
 		armor_value = 60
 		ap_attack = 16
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 31.43
-		defense = 30.44
+		breakthrough = 93.36
+		defense = 140.03
 
 		maximum_speed = 11.6
 		reliability = 0.76
@@ -16183,7 +16182,7 @@ equipments = {
 		armor_value = 21.1
 		ap_attack = 72
 
-		hardness = 0.88
+		#hardness = 0.88
 
 		breakthrough = 1.5
 		defense = 1.9
@@ -16222,7 +16221,7 @@ equipments = {
 		armor_value = 70
 		ap_attack = 28
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 1.1
 		defense = 1.5
@@ -16269,7 +16268,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 12
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 1.6
 		defense = 2.2
@@ -16365,7 +16364,7 @@ equipments = {
         armor_value = 70
         ap_attack = 98
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 20
         defense = 22.5
@@ -16407,7 +16406,7 @@ equipments = {
         armor_value = 150
         ap_attack = 156
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 24.2
         defense = 32.3
@@ -16450,7 +16449,7 @@ equipments = {
         armor_value = 240
         ap_attack = 253
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 34.5
         defense = 45.8
@@ -16487,7 +16486,7 @@ equipments = {
         armor_value = 200
         ap_attack = 217
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 31.7
         defense = 33.8
@@ -16530,7 +16529,7 @@ equipments = {
         armor_value = 260
         ap_attack = 252
 
-        hardness = 1.25
+        #hardness = 1.25
 
         breakthrough = 38.1
         defense = 50.6
@@ -16568,7 +16567,7 @@ equipments = {
 		armor_value = 40
 		ap_attack = 24
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 13.8
 		defense = 18.5
@@ -16605,15 +16604,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 6.56
-		soft_attack = 18.24
+		hard_attack = 49.5
+		soft_attack = 60.13
 		armor_value = 56.8
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 18.77
-		defense = 30.21
+		breakthrough = 120.26
+		defense = 180.39
 
 		maximum_speed = 3.8
 		reliability = 0.63
@@ -16641,15 +16640,15 @@ equipments = {
 			fra_heavy_equipment_2
 		}
 
-		hard_attack = 9.56
-		soft_attack = 20.36
+		hard_attack = 63.09
+		soft_attack = 76.32
 		armor_value = 75.1
 		ap_attack = 52
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 25.52
-		defense = 41.07
+		breakthrough = 152.64
+		defense = 228.97
 
 		maximum_speed = 5.4
 		reliability = 0.66
@@ -16677,15 +16676,15 @@ equipments = {
 			fra_heavy_equipment_2
 		}
 
-		hard_attack = 9.15
-		soft_attack = 19.5
+		hard_attack = 66.49
+		soft_attack = 79.16
 		armor_value = 84.3
 		ap_attack = 55
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 26.29
-		defense = 44.19
+		breakthrough = 158.32
+		defense = 237.48
 
 		maximum_speed = 5.4
 		reliability = 0.72
@@ -16718,15 +16717,15 @@ equipments = {
 		priority = 33
 		visual_level = 1
 
-		hard_attack = 10.35
-		soft_attack = 22.05
+		hard_attack = 75.35
+		soft_attack = 95.61
 		armor_value = 70
 		ap_attack = 74
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 30.88
-		defense = 45.9
+		breakthrough = 191.23
+		defense = 286.84
 
 		maximum_speed = 5.8
 		reliability = 0.63
@@ -16759,15 +16758,15 @@ equipments = {
 		priority = 33
 		visual_level = 1
 
-		hard_attack = 46.19
-		soft_attack = 68.31
+		hard_attack = 179.48
+		soft_attack = 220.28
 		armor_value = 85.5
 		ap_attack = 174
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 55.87
-		defense = 70.95
+		breakthrough = 440.56
+		defense = 660.84
 
 		maximum_speed = 6.2
 		reliability = 0.65
@@ -16800,15 +16799,15 @@ equipments = {
 		priority = 34
 		visual_level = 2
 
-		hard_attack = 70.96
-		soft_attack = 104.93
+		hard_attack = 214.71
+		soft_attack = 272.74
 		armor_value = 130
 		ap_attack = 174
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 60.17
-		defense = 58.92
+		breakthrough = 545.47
+		defense = 818.21
 
 		maximum_speed = 7.8
 		reliability = 0.72
@@ -16847,7 +16846,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 174
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 40.2
 		defense = 45.5
@@ -16889,7 +16888,7 @@ equipments = {
 		armor_value = 240
 		ap_attack = 256
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 72.2
 		defense = 70.7
@@ -16931,7 +16930,7 @@ equipments = {
 		armor_value = 280
 		ap_attack = 258
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 86.6
 		defense = 84.8
@@ -16962,15 +16961,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 14.92
-		soft_attack = 34.49
+		hard_attack = 89.18
+		soft_attack = 116.74
 		armor_value = 82.6
 		ap_attack = 92
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 35.42
-		defense = 42.92
+		breakthrough = 233.48
+		defense = 350.23
 
 		maximum_speed = 7.6
 		reliability = 0.70
@@ -17004,15 +17003,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 32.23
-		soft_attack = 58.6
+		hard_attack = 141.37
+		soft_attack = 175.65
 		armor_value = 92
 		ap_attack = 142
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 70.09
-		defense = 78.31
+		breakthrough = 351.31
+		defense = 526.96
 
 		maximum_speed = 6.4
 		reliability = 0.64
@@ -17038,15 +17037,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 64.45
-		soft_attack = 77.63
+		hard_attack = 209.3
+		soft_attack = 232.3
 		armor_value = 100
 		ap_attack = 142
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 74.84
-		defense = 74.85
+		breakthrough = 464.6
+		defense = 696.9
 
 		maximum_speed = 8
 		reliability = 0.7
@@ -17086,7 +17085,7 @@ equipments = {
 		armor_value = 170
 		ap_attack = 235
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 89.8
 		defense = 90
@@ -17116,15 +17115,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 6.2
-		soft_attack = 18.88
+		hard_attack = 44.47
+		soft_attack = 60.98
 		armor_value = 20
 		ap_attack = 21
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 20.1
-		defense = 25.87
+		breakthrough = 121.95
+		defense = 182.93
 
 		maximum_speed = 4
 		reliability = 0.60
@@ -17154,7 +17153,7 @@ equipments = {
 		armor_value = 39.4
 		ap_attack = 26
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 9
 		defense = 9.6
@@ -17196,7 +17195,7 @@ equipments = {
 		armor_value = 35
 		ap_attack = 36
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 11
 		defense = 14.6
@@ -17233,15 +17232,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 47.33
-		soft_attack = 20.8
+		hard_attack = 192.69
+		soft_attack = 277.71
 		armor_value = 180
 		ap_attack = 185
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 70.93
-		defense = 86.89
+		breakthrough = 555.41
+		defense = 833.12
 
 		maximum_speed = 6.2
 		reliability = 0.70
@@ -17268,15 +17267,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 8.82
-		soft_attack = 26.80
+		hard_attack = 25.58
+		soft_attack = 46.03
 		armor_value = 20
 		ap_attack = 32
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 9.73
-		defense = 13.62
+		breakthrough = 92.05
+		defense = 138.08
 
 		maximum_speed = 4.6
 		reliability = 0.7
@@ -17310,15 +17309,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 8.33
-		soft_attack = 26.12
+		hard_attack = 105.9
+		soft_attack = 123.31
 		armor_value = 50
 		ap_attack = 35
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 44.27
-		defense = 54.23
+		breakthrough = 246.63
+		defense = 369.94
 
 		maximum_speed = 5.8
 		reliability = 0.52
@@ -17357,7 +17356,7 @@ equipments = {
 		armor_value = 120
 		ap_attack = 144
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 26
 		defense = 34.5
@@ -17395,15 +17394,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 56.48
-		soft_attack = 96.77
+		hard_attack = 202.9
+		soft_attack = 245.73
 		armor_value = 114.1
 		ap_attack = 144
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 75.37
-		defense = 83.25
+		breakthrough = 491.46
+		defense = 737.18
 
 		maximum_speed = 8
 		reliability = 0.65
@@ -17438,15 +17437,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 80.48
-		soft_attack = 100.72
+		hard_attack = 288.88
+		soft_attack = 331.89
 		armor_value = 201.2
 		ap_attack = 211
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 98.26
-		defense = 120.37
+		breakthrough = 663.77
+		defense = 995.66
 
 		maximum_speed = 6.4
 		reliability = 0.70
@@ -17486,7 +17485,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 225
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 19.3
 		defense = 25.6
@@ -17524,15 +17523,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 79.08
-		soft_attack = 150.33
+		hard_attack = 421.78
+		soft_attack = 551.19
 		armor_value = 250
 		ap_attack = 225
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 163.84
-		defense = 200.7
+		breakthrough = 1102.39
+		defense = 1653.58
 
 		maximum_speed = 6.4
 		reliability = 0.72
@@ -17567,15 +17566,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 90.67
-		soft_attack = 139.92
+		hard_attack = 431.45
+		soft_attack = 534.75
 		armor_value = 300
 		ap_attack = 282
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 179.47
-		defense = 200.7
+		breakthrough = 1069.49
+		defense = 1604.24
 
 		maximum_speed = 6.4
 		reliability = 0.77
@@ -17602,15 +17601,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 11.87
-		soft_attack = 36.15
+		hard_attack = 43.54
+		soft_attack = 73.01
 		armor_value = 30.9
 		ap_attack = 51
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 14.23
-		defense = 21.02
+		breakthrough = 146.03
+		defense = 219.04
 
 		maximum_speed = 5.2
 		reliability = 0.64
@@ -17644,15 +17643,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 8.93
-		soft_attack = 20.5
+		hard_attack = 107.07
+		soft_attack = 118.57
 		armor_value = 106.5
 		ap_attack = 72
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 41.44
-		defense = 66.18
+		breakthrough = 237.15
+		defense = 355.72
 
 		maximum_speed = 7
 		reliability = 0.60
@@ -17685,7 +17684,7 @@ equipments = {
 		armor_value = 106.5
 		ap_attack = 75
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 17.3
 		defense = 23
@@ -17714,15 +17713,15 @@ equipments = {
 		is_convertable = yes
 		
 
-		hard_attack = 11.9
-		soft_attack = 23.98
+		hard_attack = 109.11
+		soft_attack = 120.01
 		armor_value = 112
 		ap_attack = 75
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 42.38
-		defense = 63.07
+		breakthrough = 240.02
+		defense = 360.03
 
 		maximum_speed = 7.6
 		reliability = 0.72
@@ -17753,7 +17752,7 @@ equipments = {
 		armor_value = 90
 		ap_attack = 95
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 24.8
 		defense = 33
@@ -17790,15 +17789,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 30.93
-		soft_attack = 59.07
+		hard_attack = 157.86
+		soft_attack = 192.27
 		armor_value = 142.5
 		ap_attack = 95
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 71.4
-		defense = 86.89
+		breakthrough = 384.54
+		defense = 576.81
 
 		maximum_speed = 7.2
 		reliability = 0.70
@@ -17826,15 +17825,15 @@ equipments = {
 			sov_heavy_equipment_6
 		}
 
-		hard_attack = 45.54
-		soft_attack = 97.32
+		hard_attack = 173.54
+		soft_attack = 259.37
 		armor_value = 153.5
 		ap_attack = 172
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 69.87
-		defense = 86.89
+		breakthrough = 518.74
+		defense = 778.11
 
 		maximum_speed = 7.4
 		reliability = 0.77
@@ -17868,15 +17867,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 50.84
-		soft_attack = 93.93
+		hard_attack = 341.37
+		soft_attack = 427.87
 		armor_value = 203.5
 		ap_attack = 172
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 170.02
-		defense = 210.91
+		breakthrough = 855.75
+		defense = 1283.62
 
 		maximum_speed = 8.2
 		reliability = 0.77
@@ -17911,15 +17910,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
-		hard_attack = 64.59
-		soft_attack = 123.05
+		hard_attack = 523.43
+		soft_attack = 640.28
 		armor_value = 280
 		ap_attack = 172
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 233.82
-		defense = 275.32
+		breakthrough = 1280.57
+		defense = 1920.85
 
 		maximum_speed = 8.6
 		reliability = 0.76
@@ -17959,7 +17958,7 @@ equipments = {
 		armor_value = 300
 		ap_attack = 238
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 41.6
 		defense = 55.4
@@ -18002,7 +18001,7 @@ equipments = {
 		armor_value = 280
 		ap_attack = 254
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 204
 		defense = 253.1
@@ -18036,7 +18035,7 @@ equipments = {
 		armor_value = 280
 		ap_attack = 268
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 40.4
 		defense = 53.9
@@ -18067,15 +18066,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 8.43
-		soft_attack = 2.14
+		hard_attack = 47.7
+		soft_attack = 35.31
 		armor_value = 27.5
 		ap_attack = 42
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 19.17
-		defense = 23.74
+		breakthrough = 70.63
+		defense = 105.94
 
 		maximum_speed = 4.6
 		reliability = 0.77
@@ -18106,7 +18105,7 @@ equipments = {
 		armor_value = 27.5
 		ap_attack = 44
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 20.1
 		defense = 24.7
@@ -18117,7 +18116,7 @@ equipments = {
 		air_attack = 0
 		max_strength = 4.5
 		
-		build_cost_ic = 10.0
+		build_cost_ic = 20.0
 		resources = {
 			steel = 6
 			tungsten = 1
@@ -18142,15 +18141,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 6.06
-		soft_attack = 1.18
+		hard_attack = 75.25
+		soft_attack = 65.05
 		armor_value = 66
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 36.83
-		defense = 54.39
+		breakthrough = 130.09
+		defense = 195.14
 
 		maximum_speed = 4.4
 		reliability = 0.77
@@ -18178,15 +18177,15 @@ equipments = {
 			eng_support_equipment_1
 		}
 
-		hard_attack = 13.09
-		soft_attack = 18.52
+		hard_attack = 79.19
+		soft_attack = 86.22
 		armor_value = 66.9
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 37.79
-		defense = 50.3
+		breakthrough = 172.43
+		defense = 258.65
 
 		maximum_speed = 5.2
 		reliability = 0.81
@@ -18215,15 +18214,15 @@ equipments = {
 			eng_support_equipment_2
 		}
 
-		hard_attack = 11.77
-		soft_attack = 24.49
+		hard_attack = 79.6
+		soft_attack = 96.03
 		armor_value = 66.9
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 37.79
-		defense = 50.3
+		breakthrough = 192.05
+		defense = 288.08
 
 		maximum_speed = 5.2
 		reliability = 0.81
@@ -18247,15 +18246,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 0.72
-		soft_attack = 0.82
+		hard_attack = 74.67
+		soft_attack = 73.96
 		armor_value = 65
 		ap_attack = 4
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 24.55
-		defense = 50.99
+		breakthrough = 147.91
+		defense = 221.87
 
 		maximum_speed = 2.6
 		reliability = 0.70
@@ -18290,15 +18289,15 @@ equipments = {
 		is_convertable = no
 		
 
-		hard_attack = 7.08
-		soft_attack = 1.38
+		hard_attack = 102.22
+		soft_attack = 90.31
 		armor_value = 90.1
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 42.14
-		defense = 63.59
+		breakthrough = 180.61
+		defense = 270.92
 
 		maximum_speed = 5.2
 		reliability = 0.77
@@ -18332,15 +18331,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 7.95
-		soft_attack = 14.52
+		hard_attack = 117.03
+		soft_attack = 121.84
 		armor_value = 95.2
 		ap_attack = 61
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 62.6
-		defense = 82.86
+		breakthrough = 243.68
+		defense = 365.52
 
 		maximum_speed = 4.6
 		reliability = 0.70
@@ -18368,15 +18367,15 @@ equipments = {
 			eng_heavy_equipment_4
 		}
 
-		hard_attack = 15.73
-		soft_attack = 22.73
+		hard_attack = 126.12
+		soft_attack = 131.44
 		armor_value = 85.6
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 62.6
-		defense = 82.86
+		breakthrough = 262.87
+		defense = 394.31
 
 		maximum_speed = 4.4
 		reliability = 0.77
@@ -18405,15 +18404,15 @@ equipments = {
 			eng_heavy_equipment_5
 		}
 
-		hard_attack = 15.88
-		soft_attack = 33.05
+		hard_attack = 202.58
+		soft_attack = 215.38
 		armor_value = 149.2
 		ap_attack = 96
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 82.14
-		defense = 115.97
+		breakthrough = 430.76
+		defense = 646.13
 
 		maximum_speed = 4.4
 		reliability = 0.81
@@ -18438,15 +18437,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 32.58
-		soft_attack = 40.2
+		hard_attack = 231.77
+		soft_attack = 244.35
 		armor_value = 167.2
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 65.71
-		defense = 113.84
+		breakthrough = 488.69
+		defense = 733.04
 
 		maximum_speed = 5.4
 		reliability = 0.82
@@ -18485,7 +18484,7 @@ equipments = {
 		armor_value = 147.1
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 78.8
 		defense = 136.6
@@ -18528,7 +18527,7 @@ equipments = {
 		armor_value = 196.88
 		ap_attack = 274
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 94.6
 		defense = 163.9
@@ -18558,15 +18557,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 61.39
-		soft_attack = 76.21
+		hard_attack = 163.85
+		soft_attack = 207.88
 		armor_value = 105
 		ap_attack = 92
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 75.56
-		defense = 76.14
+		breakthrough = 415.75
+		defense = 623.63
 
 		maximum_speed = 5.6
 		reliability = 0.70
@@ -18603,15 +18602,15 @@ equipments = {
 			usa_medium_equipment_4
 		}
 
-		hard_attack = 24.86
-		soft_attack = 40.84
+		hard_attack = 248.35
+		soft_attack = 268.88
 		armor_value = 168.7
 		ap_attack = 84
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 106.82
-		defense = 123.13
+		breakthrough = 537.75
+		defense = 806.63
 
 		maximum_speed = 6.4
 		reliability = 0.77
@@ -18645,15 +18644,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 76.92
-		soft_attack = 107.95
+		hard_attack = 292.43
+		soft_attack = 341.58
 		armor_value = 171.6
 		ap_attack = 203
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 105.78
-		defense = 127.35
+		breakthrough = 683.17
+		defense = 1024.75
 
 		maximum_speed = 5.8
 		reliability = 0.66
@@ -18661,12 +18660,12 @@ equipments = {
 		air_attack = 1
 		max_strength = 5
 		
-		build_cost_ic = 48.74
+		build_cost_ic = 49.14
 		resources = {
 			steel = 10
 			tungsten = 3
 		}
-		fuel_consumption = 3.46
+		fuel_consumption = 2.92
 	}
 
 	usa_ghost_heavy_equipment_3 = {
@@ -18687,15 +18686,15 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
-		hard_attack = 68.38
-		soft_attack = 94.08
+		hard_attack = 214.7
+		soft_attack = 263.62
 		armor_value = 195.75
 		ap_attack = 185
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 83.49
-		defense = 91.42
+		breakthrough = 527.24
+		defense = 790.86
 
 		maximum_speed = 4.8
 		reliability = 0.64
@@ -18726,7 +18725,7 @@ equipments = {
 		armor_value = 190
 		ap_attack = 162
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 91.8
 		defense = 100.5
@@ -18769,7 +18768,7 @@ equipments = {
 		armor_value = 245.2
 		ap_attack = 194
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 127
 		defense = 152.9
@@ -18812,7 +18811,7 @@ equipments = {
 		armor_value = 250
 		ap_attack = 258
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 152.4
 		defense = 183.5
@@ -18855,7 +18854,7 @@ equipments = {
 		armor_value = 280
 		ap_attack = 264
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 182.9
 		defense = 220.2
@@ -18898,7 +18897,7 @@ equipments = {
 		armor_value = 260
 		ap_attack = 264
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 62.4
 		defense = 71.9
@@ -19017,7 +19016,7 @@ equipments = {
 		armor_value = 42
 		ap_attack = 10
 
-		hardness = 0.6
+		#hardness = 0.6
 
 		breakthrough = 1.2
 		defense = 1.6
@@ -19049,15 +19048,15 @@ equipments = {
 			
 		}
 
-		hard_attack = 4.57
-		soft_attack = 9.52
+		hard_attack = 45.38
+		soft_attack = 49.79
 		armor_value = 80
 		ap_attack = 92
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 20.81
-		defense = 29.62
+		breakthrough = 99.59
+		defense = 149.38
 
 		maximum_speed = 7
 		reliability = 0.70
@@ -19086,15 +19085,15 @@ equipments = {
 			ita_heavy_equipment_1
 		}
 
-		hard_attack = 4.93
-		soft_attack = 16.68
+		hard_attack = 33.28
+		soft_attack = 46.82
 		armor_value = 79.2
 		ap_attack = 55
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 18.76
-		defense = 27.7
+		breakthrough = 93.65
+		defense = 140.47
 
 		maximum_speed = 6.4
 		reliability = 0.70
@@ -19131,15 +19130,15 @@ equipments = {
 			ita_heavy_equipment_2
 		}
 
-		hard_attack = 0.0
-		soft_attack = 18.12
+		hard_attack = 5.92
+		soft_attack = 28.63
 		armor_value = 25
 		ap_attack = 32
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 3.3
-		defense = 4.62
+		breakthrough = 57.27
+		defense = 85.9
 
 		maximum_speed = 6.4
 		reliability = 0.64
@@ -19181,7 +19180,7 @@ equipments = {
 		armor_value = 130
 		ap_attack = 76
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 16.0
 		defense = 21.3
@@ -19218,7 +19217,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 72
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 11.5
 		defense = 15.3
@@ -19251,15 +19250,15 @@ equipments = {
 			ger_heavy_equipment_3
 		}
 
-		hard_attack = 4.9
-		soft_attack = 6.04
+		hard_attack = 52.62
+		soft_attack = 50.76
 		armor_value = 160
 		ap_attack = 144
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 58.93
-		defense = 69.56
+		breakthrough = 101.52
+		defense = 152.28
 
 		maximum_speed = 5.5
 		reliability = 0.6
@@ -19297,15 +19296,15 @@ equipments = {
 			ger_heavy_equipment_4
 		}
 
-		hard_attack = 0.08
-		soft_attack = 17.31
+		hard_attack = 7.23
+		soft_attack = 33.62
 		armor_value = 70
 		ap_attack = 28
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 7.34
-		defense = 8.2
+		breakthrough = 67.24
+		defense = 100.86
 
 		maximum_speed = 6.4
 		reliability = 0.66
@@ -19339,7 +19338,7 @@ equipments = {
 		armor_value = 120
 		ap_attack = 50
 
-		hardness = 0.98
+		#hardness = 0.98
 
 		breakthrough = 3.4
 		defense = 6
@@ -19385,7 +19384,7 @@ equipments = {
 		armor_value = 150
 		ap_attack = 50
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 3.6
 		defense = 6.5
@@ -19421,15 +19420,15 @@ equipments = {
 			sov_heavy_equipment_3
 		}
 
-		hard_attack = 5.61
-		soft_attack = 18.64
+		hard_attack = 57.24
+		soft_attack = 68.48
 		armor_value = 105.9
 		ap_attack = 82
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 25.61
-		defense = 38.74
+		breakthrough = 136.97
+		defense = 205.45
 
 		maximum_speed = 7
 		reliability = 0.65
@@ -19468,15 +19467,15 @@ equipments = {
 			sov_medium_equipment_1
 		}
 
-		hard_attack = 5.95
-		soft_attack = 17.32
+		hard_attack = 21.99
+		soft_attack = 35.17
 		armor_value = 80
 		ap_attack = 51
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 4.19
-		defense = 7.26
+		breakthrough = 70.34
+		defense = 105.51
 
 		maximum_speed = 10.4
 		reliability = 0.66
@@ -19515,15 +19514,15 @@ equipments = {
 			sov_medium_equipment_1
 		}
 
-		hard_attack = 4.9
-		soft_attack = 32.38
+		hard_attack = 39.13
+		soft_attack = 84.79
 		armor_value = 69.8
 		ap_attack = 61
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 29.53
-		defense = 30.15
+		breakthrough = 169.58
+		defense = 254.37
 
 		maximum_speed = 10.6
 		reliability = 0.66
@@ -19553,15 +19552,15 @@ equipments = {
 			sov_medium_equipment_1
 		}
 
-		hard_attack = 16.52
-		soft_attack = 39.82
+		hard_attack = 99.05
+		soft_attack = 139.57
 		armor_value = 85
 		ap_attack = 61
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 42.51
-		defense = 54.39
+		breakthrough = 279.13
+		defense = 418.7
 
 		maximum_speed = 10.4
 		reliability = 0.66
@@ -19600,15 +19599,15 @@ equipments = {
 			sov_heavy_equipment_6
 		}
 
-		hard_attack = 14.56
-		soft_attack = 33.66
+		hard_attack = 58.93
+		soft_attack = 81.48
 		armor_value = 99.4
 		ap_attack = 135
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 32.19
-		defense = 38.11
+		breakthrough = 162.96
+		defense = 244.43
 
 		maximum_speed = 8.2
 		reliability = 0.72
@@ -19639,15 +19638,15 @@ equipments = {
 			sov_heavy_equipment_7
 		}
 
-		hard_attack = 15.25
-		soft_attack = 35.56
+		hard_attack = 82.33
+		soft_attack = 111.95
 		armor_value = 123.2
 		ap_attack = 120
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 39.44
-		defense = 50.08
+		breakthrough = 223.89
+		defense = 335.84
 
 		maximum_speed = 6.5
 		reliability = 0.72
@@ -19689,7 +19688,7 @@ equipments = {
 		armor_value = 170
 		ap_attack = 254
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 13.4
 		defense = 35.8
@@ -19721,7 +19720,7 @@ equipments = {
 		armor_value = 70
 		ap_attack = 10
 
-		hardness = 0.82
+		#hardness = 0.82
 
 		breakthrough = 0.8
 		defense = 1.6
@@ -19763,7 +19762,7 @@ equipments = {
 		armor_value = 50
 		ap_attack = 10
 
-		hardness = 0.44
+		#hardness = 0.44
 
 		breakthrough = 1.5
 		defense = 3
@@ -19808,7 +19807,7 @@ equipments = {
 		armor_value = 70
 		ap_attack = 30
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 3.9
 		defense = 7.2
@@ -19842,15 +19841,15 @@ equipments = {
 			eng_support_equipment_1
 		}
 
-		hard_attack = 0.07
-		soft_attack = 5.59
+		hard_attack = 12.4
+		soft_attack = 18.48
 		armor_value = 35
 		ap_attack = 23
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 9.05
-		defense = 13.29
+		breakthrough = 36.97
+		defense = 55.45
 
 		maximum_speed = 5
 		reliability = 0.47
@@ -19887,15 +19886,15 @@ equipments = {
 			eng_heavy_equipment_6
 		}
 
-		hard_attack = 0.57
-		soft_attack = 6.59
+		hard_attack = 48.1
+		soft_attack = 53.14
 		armor_value = 120
 		ap_attack = 72
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 37.56
-		defense = 49.72
+		breakthrough = 106.28
+		defense = 159.43
 
 		maximum_speed = 4.4
 		reliability = 0.77
@@ -19923,15 +19922,15 @@ equipments = {
 			eng_heavy_equipment_6
 		}
 
-		hard_attack = 9.53
-		soft_attack = 28.47
+		hard_attack = 121.55
+		soft_attack = 137.43
 		armor_value = 80
 		ap_attack = 87
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 49.29
-		defense = 69.58
+		breakthrough = 274.86
+		defense = 412.29
 
 		maximum_speed = 4.4
 		reliability = 0.77
@@ -19973,7 +19972,7 @@ equipments = {
 		armor_value = 160
 		ap_attack = 86
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 10.0
 		defense = 13.4
@@ -20018,7 +20017,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 28
 
-		hardness = 0.84
+		#hardness = 0.84
 
 		breakthrough = 4.5
 		defense = 7.4
@@ -20065,7 +20064,7 @@ equipments = {
 		armor_value = 60
 		ap_attack = 28
 
-		hardness = 0.86
+		#hardness = 0.86
 
 		breakthrough = 4.3
 		defense = 7.2
@@ -20098,15 +20097,15 @@ equipments = {
 			usa_heavy_equipment_3
 		}
 
-		hard_attack = 30.27
-		soft_attack = 67.95
+		hard_attack = 152.2
+		soft_attack = 205.74
 		armor_value = 160
 		ap_attack = 158
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 65.46
-		defense = 76.41
+		breakthrough = 411.48
+		defense = 617.22
 
 		maximum_speed = 5.6
 		reliability = 0.66
@@ -20221,7 +20220,7 @@ equipments = {
 		armor_value = 140
 		ap_attack = 102
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 7.1
 		defense = 17.9
@@ -20258,7 +20257,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 142
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 3.4
 		defense = 9.6
@@ -20297,15 +20296,15 @@ equipments = {
 			ita_heavy_equipment_2
 		}
 
-		hard_attack = 8.9
-		soft_attack = 6.28
+		hard_attack = 43.48
+		soft_attack = 39.03
 		armor_value = 130
 		ap_attack = 152
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 25.16
-		defense = 37.38
+		breakthrough = 78.06
+		defense = 117.09
 
 		maximum_speed = 6.4
 		reliability = 0.64
@@ -20346,7 +20345,7 @@ equipments = {
 		armor_value = 170
 		ap_attack = 235
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 6.3
 		defense = 14.4
@@ -20377,15 +20376,15 @@ equipments = {
 			jap_heavy_equipment_3
 		}
 
-		hard_attack = 23.85
-		soft_attack = 23.96
+		hard_attack = 88.97
+		soft_attack = 91.94
 		armor_value = 180
 		ap_attack = 218
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 40.69
-		defense = 47.53
+		breakthrough = 183.88
+		defense = 275.82
 
 		maximum_speed = 6.4
 		reliability = 0.64
@@ -20416,15 +20415,15 @@ equipments = {
 			ger_heavy_equipment_2
 		}
 
-		hard_attack = 30.36
-		soft_attack = 19.35
+		hard_attack = 111.2
+		soft_attack = 103.6
 		armor_value = 195.7
 		ap_attack = 211
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 49.8
-		defense = 68.2
+		breakthrough = 207.19
+		defense = 310.79
 
 		maximum_speed = 6.4
 		reliability = 0.63
@@ -20459,15 +20458,15 @@ equipments = {
 		priority = 40
 		visual_level = 1
 
-		hard_attack = 17.66
-		soft_attack = 17.71
+		hard_attack = 32.39
+		soft_attack = 35.0
 		armor_value = 59.3
 		ap_attack = 232
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 15.93
-		defense = 21.17
+		breakthrough = 70.0
+		defense = 105.0
 
 		maximum_speed = 3.6
 		reliability = 0.60
@@ -20504,15 +20503,15 @@ equipments = {
 			ger_heavy_equipment_4
 		}
 
-		hard_attack = 33.36
-		soft_attack = 31.71
+		hard_attack = 135.59
+		soft_attack = 139.26
 		armor_value = 276.4
 		ap_attack = 245
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 72.79
-		defense = 89.17
+		breakthrough = 278.52
+		defense = 417.79
 
 		maximum_speed = 7
 		reliability = 0.66
@@ -20555,7 +20554,7 @@ equipments = {
 		armor_value = 260
 		ap_attack = 246
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 23.5
 		defense = 27.3
@@ -20601,7 +20600,7 @@ equipments = {
 		armor_value = 300
 		ap_attack = 291
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 26.9
 		defense = 31.3
@@ -20635,15 +20634,15 @@ equipments = {
 			sov_heavy_equipment_7
 		}
 
-		hard_attack = 18.67
-		soft_attack = 20.67
+		hard_attack = 79.48
+		soft_attack = 83.07
 		armor_value = 123.2
 		ap_attack = 172
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 36.62
-		defense = 48.26
+		breakthrough = 166.14
+		defense = 249.21
 
 		maximum_speed = 7.4
 		reliability = 0.72
@@ -20685,7 +20684,7 @@ equipments = {
 		armor_value = 170
 		ap_attack = 254
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 20.2
 		defense = 26.9
@@ -20731,7 +20730,7 @@ equipments = {
 		armor_value = 260
 		ap_attack = 286
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 23.2
 		defense = 30.7
@@ -20770,7 +20769,7 @@ equipments = {
 		armor_value = 30
 		ap_attack = 87
 
-		hardness = 0.63
+		#hardness = 0.63
 
 		breakthrough = 3.9
 		defense = 10.2
@@ -20810,15 +20809,15 @@ equipments = {
 			eng_support_equipment_2
 		}
 
-		hard_attack = 13.44
-		soft_attack = 8.38
+		hard_attack = 30.43
+		soft_attack = 22.13
 		armor_value = 15.2
 		ap_attack = 156
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 9.87
-		defense = 11.53
+		breakthrough = 44.27
+		defense = 66.4
 
 		maximum_speed = 6.2
 		reliability = 0.72
@@ -20852,15 +20851,15 @@ equipments = {
 		priority = 36
 		visual_level = 2
 
-		hard_attack = 27.2
-		soft_attack = 15.53
+		hard_attack = 119.98
+		soft_attack = 105.87
 		armor_value = 193.8
 		ap_attack = 225
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 56.01
-		defense = 78.19
+		breakthrough = 211.74
+		defense = 317.61
 
 		maximum_speed = 3.6
 		reliability = 0.77
@@ -20903,7 +20902,7 @@ equipments = {
 		armor_value = 300
 		ap_attack = 295
 
-		hardness = 1
+		#hardness = 1
 
 		breakthrough = 12.5
 		defense = 23.0
@@ -20933,15 +20932,15 @@ equipments = {
 		priority = 27
 		visual_level = 2
 
-		hard_attack = 10.28
-		soft_attack = 14.47
+		hard_attack = 76.41
+		soft_attack = 81.47
 		armor_value = 320.4
 		ap_attack = 198
 
-		hardness = 1
+		#hardness = 0
 
-		breakthrough = 31.62
-		defense = 63.12
+		breakthrough = 162.93
+		defense = 244.4
 
 		maximum_speed = 3
 		reliability = 0.70
@@ -20992,15 +20991,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 1.73
-		soft_attack = 4.48
+		hard_attack = 12.39
+		soft_attack = 14.46
 		armor_value = 45
 		ap_attack = 54
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 3.9
-		defense = 7.17
+		breakthrough = 28.93
+		defense = 43.39
 
 		maximum_speed = 3
 		reliability = 0.66
@@ -21030,7 +21029,7 @@ equipments = {
 		armor_value = 100
 		ap_attack = 112
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 5.5
 		defense = 6.3
@@ -21061,15 +21060,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 7.98
-		soft_attack = 19.7
+		hard_attack = 55.44
+		soft_attack = 74.47
 		armor_value = 150
 		ap_attack = 114
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 27.01
-		defense = 35.95
+		breakthrough = 148.94
+		defense = 223.42
 
 		maximum_speed = 3.4
 		reliability = 0.63
@@ -21108,7 +21107,7 @@ equipments = {
 		armor_value = 200
 		ap_attack = 142
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 10.36
 		defense = 11.99
@@ -21151,7 +21150,7 @@ equipments = {
 		armor_value = 280
 		ap_attack = 215
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 55
 		defense = 72
@@ -21181,15 +21180,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 
-		hard_attack = 29.61
-		soft_attack = 52.83
+		hard_attack = 138.36
+		soft_attack = 180.61
 		armor_value = 299.4
 		ap_attack = 245
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 45.24
-		defense = 71.55
+		breakthrough = 361.22
+		defense = 541.84
 
 		maximum_speed = 4.2
 		reliability = 0.70
@@ -21224,15 +21223,15 @@ equipments = {
 		visual_level = 2
 		is_convertable = no
 
-		hard_attack = 19.88
-		soft_attack = 37.79
+		hard_attack = 130.93
+		soft_attack = 160.04
 		armor_value = 300
 		ap_attack = 245
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 36.92
-		defense = 63.97
+		breakthrough = 320.07
+		defense = 480.11
 
 		maximum_speed = 4.8
 		reliability = 0.75
@@ -21261,15 +21260,15 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
-		hard_attack = 11.38
-		soft_attack = 14.04
+		hard_attack = 48.33
+		soft_attack = 50.72
 		armor_value = 123.8
 		ap_attack = 156
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 18.96
-		defense = 27.64
+		breakthrough = 101.44
+		defense = 152.17
 
 		maximum_speed = 2.6
 		reliability = 0.76
@@ -21306,15 +21305,15 @@ equipments = {
 			ger_light_equipment_2
 		}
 
-		hard_attack = 3.76
-		soft_attack = 3.21
+		hard_attack = 40.8
+		soft_attack = 37.41
 		armor_value = 15
 		ap_attack = 13
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 18.31
-		defense = 22.71
+		breakthrough = 74.83
+		defense = 112.24
 
 		maximum_speed = 7.4
 		reliability = 0.70
@@ -21343,15 +21342,15 @@ equipments = {
 			ger_medium_equipment_2
 		}
 
-		hard_attack = 13.75
-		soft_attack = 22.07
+		hard_attack = 75.51
+		soft_attack = 81.79
 		armor_value = 30
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 29.11
-		defense = 32.55
+		breakthrough = 163.59
+		defense = 245.38
 
 		maximum_speed = 7.2
 		reliability = 0.70
@@ -21383,15 +21382,15 @@ equipments = {
 			ger_light_equipment_3_5
 		}
 		
-		hard_attack = 3.62
-		soft_attack = 8.14
+		hard_attack = 47.57
+		soft_attack = 53.17
 		armor_value = 30 
 		ap_attack = 46
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 25.57
-		defense = 34.76
+		breakthrough = 106.34
+		defense = 159.52
 
 		maximum_speed = 7.8
 		reliability = 0.77
@@ -21421,15 +21420,15 @@ equipments = {
 			ger_support_tank_equipment_2
 		}
 
-		hard_attack = 9.13
-		soft_attack = 29.63
+		hard_attack = 82.64
+		soft_attack = 105.07
 		armor_value = 50
 		ap_attack = 35
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 34.13
-		defense = 38.17
+		breakthrough = 210.15
+		defense = 315.22
 
 		maximum_speed = 7.8
 		reliability = 0.70
@@ -21454,15 +21453,15 @@ equipments = {
 		priority = 40
 		visual_level = 0
 
-		hard_attack = 0.0
-		soft_attack = 0.26
+		hard_attack = 8.24
+		soft_attack = 8.59
 		armor_value = 4
 		ap_attack = 3
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 5.62
-		defense = 7.64
+		breakthrough = 17.18
+		defense = 25.77
 
 		maximum_speed = 12
 		reliability = 0.64
@@ -21486,15 +21485,15 @@ equipments = {
 		
 		parent = sov_amphibious_tank_equipment_1
 
-		hard_attack = 0.0
-		soft_attack = 0.25
+		hard_attack = 9.79
+		soft_attack = 10.14
 		armor_value = 4
 		ap_attack = 3
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.57
-		defense = 9.07
+		breakthrough = 20.27
+		defense = 30.41
 
 		maximum_speed = 12
 		reliability = 0.76
@@ -21518,15 +21517,15 @@ equipments = {
 		
 		parent = sov_amphibious_tank_equipment_2
 
-		hard_attack = 1.23
-		soft_attack = 0.77
+		hard_attack = 12.98
+		soft_attack = 10.84
 		armor_value = 4
 		ap_attack = 3
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 6.57
-		defense = 9.07
+		breakthrough = 21.68
+		defense = 32.52
 
 		maximum_speed = 10
 		reliability = 0.76
@@ -21550,15 +21549,15 @@ equipments = {
 		priority = 40
 		visual_level = 0
 
-		hard_attack = 0.38
-		soft_attack = 0.52
+		hard_attack = 16.69
+		soft_attack = 16.12
 		armor_value = 10
 		ap_attack = 3
 
-		hardness = 1.25.0
+		#hardness = 0
 
-		breakthrough = 7.88
-		defense = 10.93
+		breakthrough = 32.23
+		defense = 48.35
 
 		maximum_speed = 11.2
 		reliability = 0.66
@@ -21586,15 +21585,15 @@ equipments = {
 			eng_support_equipment_2
 		}
 
-		hard_attack = 13.09
-		soft_attack = 18.52
+		hard_attack = 79.19
+		soft_attack = 86.22
 		armor_value = 75
 		ap_attack = 87
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 37.79
-		defense = 50.3
+		breakthrough = 172.43
+		defense = 258.65
 
 		maximum_speed = 5.2
 		reliability = 0.81
@@ -21622,15 +21621,15 @@ equipments = {
 			usa_medium_equipment_3
 		}
 
-		hard_attack = 26.18
-		soft_attack = 43.0
+		hard_attack = 150.26
+		soft_attack = 171.87
 		armor_value = 70
 		ap_attack = 73
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 59.16
-		defense = 64.78
+		breakthrough = 343.74
+		defense = 515.61
 
 		maximum_speed = 7.6
 		reliability = 0.77
@@ -21659,15 +21658,15 @@ equipments = {
 			usa_medium_equipment_5
 		}
 
-		hard_attack = 46.52
-		soft_attack = 62.02
+		hard_attack = 175.85
+		soft_attack = 202.47
 		armor_value = 85
 		ap_attack = 73
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 63.17
-		defense = 69.17
+		breakthrough = 404.95
+		defense = 607.42
 
 		maximum_speed = 8.8
 		reliability = 0.77
@@ -21701,7 +21700,7 @@ equipments = {
 		armor_value = 18.3
 		ap_attack = 23
 
-		hardness = 1.25
+		#hardness = 1.25
 
 		breakthrough = 3.8
 		defense = 3.9
@@ -21732,15 +21731,15 @@ equipments = {
 			jap_medium_equipment_6
 		}
 
-		hard_attack = 9.73
-		soft_attack = 11.64
+		hard_attack = 53.8
+		soft_attack = 53.51
 		armor_value = 50
 		ap_attack = 65
 
-		hardness = 0.5
+		#hardness = 0
 
-		breakthrough = 18.17
-		defense = 26.44
+		breakthrough = 107.02
+		defense = 160.53
 
 		maximum_speed = 6.5
 		reliability = 0.76
@@ -21768,15 +21767,15 @@ equipments = {
 			jap_medium_equipment_9
 		}
 
-		hard_attack = 19.92
-		soft_attack = 17.03
+		hard_attack = 68.53
+		soft_attack = 74.08
 		armor_value = 50
 		ap_attack = 65
 
-		hardness = 1.25
+		#hardness = 0
 
-		breakthrough = 19.15
-		defense = 29.99
+		breakthrough = 148.16
+		defense = 222.24
 
 		maximum_speed = 7
 		reliability = 0.62

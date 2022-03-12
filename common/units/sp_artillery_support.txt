@@ -29,12 +29,12 @@ sub_units = {
 		}
 		transport = light_tank_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 0.2
 		training_time = 180
 		weight = 0.5
-		supply_consumption = 0.12
+		supply_consumption = 0.4
 		suppression = 1.5
 		
 		amphibious = {
@@ -42,10 +42,13 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
-		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 
 	}
 	
@@ -77,21 +80,25 @@ sub_units = {
 		}
 		transport = medium_tank_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 0.2
 		training_time = 180
 		weight = 0.5
-		supply_consumption = 0.18
+		supply_consumption = 0.6
 		suppression = 1.5
 		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
 		amphibious = {
 			attack = -0.5
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
 		
@@ -128,11 +135,11 @@ sub_units = {
 		}
 		transport = heavy_tank_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 0.2
 		weight = 0.75
-		supply_consumption = 0.25
+		supply_consumption = 0.8
 		suppression = 1.5
 		
 		amphibious = {
@@ -140,10 +147,13 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
-		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
 		
 	}
@@ -178,12 +188,12 @@ sub_units = {
 		}
 		transport = super_heavy_tank_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 0.2
 		training_time = 180
 		weight = 1.9
-		supply_consumption = 0.5
+		supply_consumption = 1.65
 		suppression = 1.5
 		
 		
@@ -192,9 +202,13 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 		
 	}
 	
@@ -227,12 +241,12 @@ sub_units = {
 		}
 		transport = modern_tank_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 50
+		default_morale = 0.5
 		#max_strength = 0.6
 		training_time = 180
 		weight = 1.25
-		supply_consumption = 0.18
+		supply_consumption = 0.6
 		suppression = 1.5
 		
 		
@@ -241,10 +255,13 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.025
+			attack = 0.05
 		}
 		
-		
+		defense = 2.375
+		breakthrough = 2.375
+		soft_attack = 2.375
+		hard_attack = 2.375
 
 	}
 	
@@ -280,8 +297,8 @@ sub_units = {
 		}
 		transport = assault_artillery_chassis
 		manpower = 200
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 25
+		default_morale = 0.25
 		#max_strength = 0.6
 		training_time = 180
 		weight = 0.25
@@ -298,7 +315,7 @@ sub_units = {
 			attack = -0.5
 		}
 		fort = {
-			attack = 0.05
+			attack = 0.1
 		}
 		
 		
@@ -336,8 +353,8 @@ sub_units = {
 		}
 		transport = heavy_assault_artillery_chassis
 		manpower = 150
-		max_organisation = 0
-		default_morale = 0
+		max_organisation = 25
+		default_morale = 0.25
 		#max_strength = 0.6
 		training_time = 180
 		weight = 0.38
@@ -355,7 +372,7 @@ sub_units = {
 		}
 		
 		fort = {
-			attack = 0.1
+			attack = 0.15
 		}
 		
 		

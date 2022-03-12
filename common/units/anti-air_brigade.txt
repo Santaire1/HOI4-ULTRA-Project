@@ -28,64 +28,68 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_organisation = 20
-		default_morale = 0.1
+		max_organisation = 50
+		default_morale = 0.5
 		max_strength = 0.6
-		manpower = 500
+		manpower = 360
 		training_time = 120
 		weight = 0.5
 		
 		supply_consumption = 0.07
 		transport = anti_air_equipment
 		
+		defense = -1
+		breakthrough = -1
+		soft_attack = -1
+		hard_attack = -1
 
 		need = {
 			anti_air_equipment = 36
 		}
 
 		plains = {
-			attack = -0.25
-			defence = 0
+			attack = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.52
-			defence = -0.2
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		hills = {
-			attack = -0.52
-			defence = -0.2
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		jungle = {
-			attack = -0.79
-			defence = -0.44
+			attack = -0.5
+			defence = -0.2
 			movement = 0
 		}
         mountain = {
-			attack = -0.79
-			defence = -0.44
+			attack = -0.5
+			defence = -0.2
 			movement = 0
 		}
 		marsh = {
-			attack = -0.685
-			defence = -0.28
+			attack = -0.5
+			defence = -0.3
 			movement = 0
 		}
 		urban = {
-			attack = -0.64
-			defence = -0.28
+			attack = -0.5
+			defence = -0.4
 			movement = 0
 		}
 		desert = {
-			attack = -0.25
-			defence = 0
+			attack = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
-			attack = -0.4
-			movement = -0.25
+			attack = 0
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -118,10 +122,10 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_organisation = 20
-		default_morale = 0.1
+		max_organisation = 50
+		default_morale = 0.5
 		max_strength = 0.6
-		manpower = 500
+		manpower = 360
 		training_time = 120
 		weight = 0.75
 		
@@ -144,47 +148,47 @@ sub_units = {
 
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.36
-			defence = -0.2
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.36
-			defence = -0.2
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.72
-			defence = -0.44
-			movement = -0.9
+			attack = -0.5
+			defence = -0.2
+			movement = 0
 		}
         mountain = {
-			attack = -0.72
-			defence = -0.44
-			movement = -0.75
+			attack = -0.5
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.58
-			defence = -0.28
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.52
-			defence = -0.28
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
-			attack = -0.25
-			movement = -0.5
+			attack = 0
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
@@ -216,10 +220,10 @@ sub_units = {
 		combat_width = 0
 		
 		#Size Definitions
-		max_organisation = 20
-		default_morale = 0.1
+		max_organisation = 50
+		default_morale = 0.5
 		max_strength = 0.6
-		manpower = 500
+		manpower = 360
 		training_time = 120
 		weight = 0.75
 		
@@ -242,47 +246,47 @@ sub_units = {
 
 		plains = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		forest = {
-			attack = -0.36
-			defence = -0.2
-			movement = -0.2
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		hills = {
-			attack = -0.36
-			defence = -0.2
-			movement = -0.3
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		jungle = {
-			attack = -0.72
-			defence = -0.44
-			movement = -0.9
+			attack = -0.5
+			defence = -0.2
+			movement = 0
 		}
         mountain = {
-			attack = -0.72
-			defence = -0.44
-			movement = -0.75
+			attack = -0.5
+			defence = -0.2
+			movement = 0
 		}
 		marsh = {
-			attack = -0.58
-			defence = -0.28
-			movement = -0.75
+			attack = -0.5
+			defence = -0.3
+			movement = 0
 		}
 		urban = {
-			attack = -0.52
-			defence = -0.28
-			movement = -0.1
+			attack = -0.5
+			defence = -0.4
+			movement = 0
 		}
 		desert = {
 			attack = 0
-			defence = 0
+			defence = 0.2
 			movement = 0
 		}
 		river = {
-			attack = -0.25
-			movement = -0.5
+			attack = 0
+			movement = 0
 		}
 		amphibious = {
 			attack = -0.5
