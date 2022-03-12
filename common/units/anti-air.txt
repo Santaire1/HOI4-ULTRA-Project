@@ -48,7 +48,7 @@ sub_units = {
 		soft_attack = -1
 
 		
-        supply_consumption = 0.18
+        supply_consumption = 0.125
 		
 	}
 }

@@ -36,7 +36,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.75
 		
-		supply_consumption = 0.13
+		supply_consumption = 0.10
 		
 		# Support nerfs to combat abilities
 		defense = -0.66

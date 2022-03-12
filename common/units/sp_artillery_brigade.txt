@@ -34,7 +34,7 @@ sub_units = {
 		max_strength = 1.5
 		training_time = 180
 		weight = 0.5
-		supply_consumption = 0.4
+		supply_consumption = 0.54
 
 		suppression = 1.5
 		
@@ -129,7 +129,7 @@ sub_units = {
 		max_strength = 1.5
 		training_time = 180
 		weight = 0.5
-		supply_consumption = 0.65
+		supply_consumption = 0.9
 		
 		defense = 2.375
 		breakthrough = 2.375
@@ -225,7 +225,7 @@ sub_units = {
 		default_morale = 0
 		max_strength = 1.5
 		weight = 0.75
-		supply_consumption = 0.8
+		supply_consumption = 1.08
 
 		suppression = 1.5
 		
@@ -322,8 +322,7 @@ sub_units = {
 		max_strength = 1.5
 		training_time = 180
 		weight = 1.9
-		supply_consumption = 1.65
-		supply_consumption_factor = 0.01
+		supply_consumption = 1.5
 		
 		defense = 2.375
 		breakthrough = 2.375
@@ -419,7 +418,7 @@ sub_units = {
 		max_strength = 1.5
 		training_time = 180
 		weight = 1.25
-		supply_consumption = 0.6
+		supply_consumption = 0.9
 		suppression = 1.5
 		
 		defense = 2.375
@@ -514,7 +513,7 @@ sub_units = {
 		#max_strength = 0.6
 		training_time = 180
 		weight = 0.5
-		supply_consumption = 0.18
+		supply_consumption = 0.42
 		suppression = 1.5
 
 		plains = {
@@ -605,7 +604,7 @@ sub_units = {
 		#max_strength = 0.6
 		training_time = 180
 		weight = 0.75
-		supply_consumption = 0.25
+		supply_consumption = 0.75
 		suppression = 1.5
 
 		plains = {

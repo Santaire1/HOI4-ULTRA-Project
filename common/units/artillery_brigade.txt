@@ -33,7 +33,7 @@ sub_units = {
 		default_morale = 0.5
 		training_time = 120
 		weight = 0.25
-		supply_consumption = 0.2
+		supply_consumption = 0.3
 		own_equipment_fuel_consumption_mult = 0.0		
 		transport = artillery_equipment
 
@@ -126,7 +126,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.38
 		own_equipment_fuel_consumption_mult = 0.0
-		supply_consumption = 0.3
+		supply_consumption = 0.45
 		transport = rocket_artillery_equipment
 		
 		defense = 2.375
@@ -221,11 +221,8 @@ sub_units = {
 		default_morale = 0.5
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.2
+		supply_consumption = 0.375
 		maximum_speed = -0.2
-
-		#Line artillery bonuses
-		# soft_attack = 0.25
 		
 		# motorized buffs combat abilities
 		defense = 3
@@ -319,11 +316,9 @@ sub_units = {
 		default_morale = 0.5
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.2
+		supply_consumption = 0.375
 		maximum_speed = -0.2
 
-		#Line artillery bonuses
-		# soft_attack = 0.25
 		
 		# motorized buffs combat abilities
 		defense = 3
@@ -427,7 +422,7 @@ sub_units = {
 		training_time = 120
 		weight = 0.75
 		maximum_speed = -0.2
-		supply_consumption = 0.3
+		supply_consumption = 0.55
 		
 		
 		plains = {
@@ -519,7 +514,7 @@ sub_units = {
 		soft_attack = 2.375
 		hard_attack = 2.375
 		
-		supply_consumption = 0.4
+		supply_consumption = 0.725
 		transport = motorized_rocket_equipment
 		
 		
